@@ -4,7 +4,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *  # noqa: F401,F403
 
-SITEURL = os.environ.get("SITEURL", "")
+SITEURL = os.environ.get("SITEURL", "https://daniloquium.xyz")
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = "feeds/all.atom.xml"
