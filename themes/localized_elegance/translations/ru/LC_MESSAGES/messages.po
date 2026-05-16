@@ -1,0 +1,1160 @@
+# Russian translations for DaniLoquium.
+# Copyright (C) 2025 Danijela Popovic
+# This file is distributed under the same license as the DaniLoquium project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DaniLoquium 1.0\n"
+"Report-Msgid-Bugs-To: dani@danimundo.com\n"
+"POT-Creation-Date: 2025-03-03 07:43+0100\n"
+"PO-Revision-Date: 2023-11-24 09:11+0100\n"
+"Last-Translator: Danijela Popović <dani@danimundo.com>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: _conf_Deutsch__local.py:10
+msgid "Danijela Popović"
+msgstr ""
+
+#: quotes/Deutsch.py:8
+msgid "The limits of my language mean the limits of my world."
+msgstr ""
+
+#: quotes/Deutsch.py:9
+msgid "Ludwig Wittgenstein"
+msgstr ""
+
+#: quotes/Deutsch.py:12
+msgid "Language is the dress of thought."
+msgstr ""
+
+#: quotes/Deutsch.py:13
+msgid "Friedrich Schiller"
+msgstr ""
+
+#: quotes/Deutsch.py:16
+msgid "Those who do not know foreign languages know nothing of their own."
+msgstr ""
+
+#: quotes/Deutsch.py:17 quotes/Deutsch.py:49 quotes/Deutsch.py:61
+#: quotes/Deutsch.py:65 quotes/Deutsch.py:69
+msgid "Johann Wolfgang von Goethe"
+msgstr ""
+
+#: quotes/Deutsch.py:20
+msgid "Language is the key to the world."
+msgstr ""
+
+#: quotes/Deutsch.py:21
+msgid "Heinrich Heine"
+msgstr ""
+
+#: quotes/Deutsch.py:24
+msgid "In the end, it is always the connections with people that give life its value."
+msgstr ""
+
+#: quotes/Deutsch.py:25
+msgid "Wilhelm von Humboldt"
+msgstr ""
+
+#: quotes/Deutsch.py:28
+msgid "Learning is experience. Everything else is just information."
+msgstr ""
+
+#: quotes/Deutsch.py:29 quotes/Deutsch.py:89
+msgid "Albert Einstein"
+msgstr ""
+
+#: quotes/Deutsch.py:32
+msgid "Without music, life would be a mistake."
+msgstr ""
+
+#: quotes/Deutsch.py:33
+msgid "Friedrich Nietzsche"
+msgstr ""
+
+#: quotes/Deutsch.py:36
+msgid "Those who know nothing must believe everything."
+msgstr ""
+
+#: quotes/Deutsch.py:37
+msgid "Georg Christoph Lichtenberg"
+msgstr ""
+
+#: quotes/Deutsch.py:40
+msgid "It is an immense happiness if one is capable of rejoicing."
+msgstr ""
+
+#: quotes/Deutsch.py:41
+msgid "Theodor Fontane"
+msgstr ""
+
+#: quotes/Deutsch.py:44
+msgid "Language is the creator of thoughts."
+msgstr ""
+
+#: quotes/Deutsch.py:45
+msgid "Berthold Auerbach"
+msgstr ""
+
+#: quotes/Deutsch.py:48
+msgid "Knowledge is not enough; we must apply. Willing is not enough; we must do."
+msgstr ""
+
+#: quotes/Deutsch.py:52
+msgid "Philosophy is the attempt to arrange all experiences into a system."
+msgstr ""
+
+#: quotes/Deutsch.py:53
+msgid "Friedrich Wilhelm Joseph Schelling"
+msgstr ""
+
+#: quotes/Deutsch.py:56
+msgid "We must know. We will know."
+msgstr ""
+
+#: quotes/Deutsch.py:57
+msgid "David Hilbert"
+msgstr ""
+
+#: quotes/Deutsch.py:60
+msgid "The truth will set you free."
+msgstr ""
+
+#: quotes/Deutsch.py:64
+msgid "The best government is that which teaches us to govern ourselves."
+msgstr ""
+
+#: quotes/Deutsch.py:68
+msgid "The goal of life is life itself."
+msgstr ""
+
+#: quotes/Deutsch.py:72
+msgid "Nothing great in the world has been accomplished without passion."
+msgstr ""
+
+#: quotes/Deutsch.py:73
+msgid "Georg Wilhelm Friedrich Hegel"
+msgstr ""
+
+#: quotes/Deutsch.py:76
+msgid "Music is a higher revelation than all wisdom and philosophy."
+msgstr ""
+
+#: quotes/Deutsch.py:77
+msgid "Ludwig van Beethoven"
+msgstr ""
+
+#: quotes/Deutsch.py:80
+msgid "Talent hits a target no one else can hit; genius hits a target no one else can see."
+msgstr ""
+
+#: quotes/Deutsch.py:81
+msgid "Arthur Schopenhauer"
+msgstr ""
+
+#: quotes/Deutsch.py:84
+msgid "Philosophers have only interpreted the world in various ways; the point, however, is to change it."
+msgstr ""
+
+#: quotes/Deutsch.py:85
+msgid "Karl Marx"
+msgstr ""
+
+#: quotes/Deutsch.py:88
+msgid "The purest form of madness is to leave everything as it is and at the same time hope that something will change."
+msgstr ""
+
+#: quotes/Deutsch.py:92
+msgid "The worst path you can choose is not choosing one at all."
+msgstr ""
+
+#: quotes/Deutsch.py:93
+msgid "Friedrich Wilhelm Nietzsche"
+msgstr ""
+
+#: quotes/Deutsch.py:96
+msgid "Every day is a new beginning."
+msgstr ""
+
+#: quotes/Deutsch.py:97
+msgid "Meister Eckhart"
+msgstr ""
+
+#: quotes/fr.py:8
+msgid "Man is nothing else but what he makes of himself."
+msgstr ""
+
+#: quotes/fr.py:9
+msgid "Jean-Paul Sartre"
+msgstr ""
+
+#: quotes/fr.py:12
+msgid "Judge a man by his questions rather than by his answers."
+msgstr ""
+
+#: quotes/fr.py:13 quotes/fr.py:45
+msgid "Voltaire"
+msgstr ""
+
+#: quotes/fr.py:16
+msgid "Imagination governs the world."
+msgstr ""
+
+#: quotes/fr.py:17
+msgid "Napoleon Bonaparte"
+msgstr ""
+
+#: quotes/fr.py:20
+msgid "To be free is not merely to cast off one’s chains, but to live in a way that respects and enhances the freedom of others."
+msgstr ""
+
+#: quotes/fr.py:21
+msgid "Simone de Beauvoir"
+msgstr ""
+
+#: quotes/fr.py:24
+msgid "Art is the most beautiful of all lies."
+msgstr ""
+
+#: quotes/fr.py:25
+msgid "Claude Debussy"
+msgstr ""
+
+#: quotes/fr.py:28
+msgid "Travel makes one modest. You see what a tiny place you occupy in the world."
+msgstr ""
+
+#: quotes/fr.py:29
+msgid "Gustave Flaubert"
+msgstr ""
+
+#: quotes/fr.py:32
+msgid "The greatest wealth is to live content with little."
+msgstr ""
+
+#: quotes/fr.py:33 quotes/fr.py:37
+msgid "Jean-Jacques Rousseau"
+msgstr ""
+
+#: quotes/fr.py:36
+msgid "The more I see of men, the more I admire dogs."
+msgstr ""
+
+#: quotes/fr.py:40
+msgid "Liberty, equality, fraternity."
+msgstr ""
+
+#: quotes/fr.py:41
+msgid "French revolution motto"
+msgstr ""
+
+#: quotes/fr.py:44
+msgid "Men argue. Nature acts."
+msgstr ""
+
+#: quotes/fr.py:48
+msgid "He who opens a school door, closes a prison."
+msgstr ""
+
+#: quotes/fr.py:49 quotes/fr.py:53 quotes/fr.py:57 quotes/fr.py:77
+#: quotes/fr.py:97
+msgid "Victor Hugo"
+msgstr ""
+
+#: quotes/fr.py:52
+msgid "To love or to have loved, that is enough. Ask nothing further."
+msgstr ""
+
+#: quotes/fr.py:56
+msgid "Music expresses that which cannot be put into words."
+msgstr ""
+
+#: quotes/fr.py:60
+msgid "To love reading is to exchange hours of boredom for delightful hours."
+msgstr ""
+
+#: quotes/fr.py:61
+msgid "Montesquieu"
+msgstr ""
+
+#: quotes/fr.py:64
+msgid "I think, therefore I am."
+msgstr ""
+
+#: quotes/fr.py:65
+msgid "René Descartes"
+msgstr ""
+
+#: quotes/fr.py:68
+msgid "The heart has its reasons, which reason does not know."
+msgstr ""
+
+#: quotes/fr.py:69 quotes/fr.py:73
+msgid "Blaise Pascal"
+msgstr ""
+
+#: quotes/fr.py:72
+msgid "The only thing that consoles us for our miseries is diversion."
+msgstr ""
+
+#: quotes/fr.py:76
+msgid "History is an echo of the past in the future; a reflex from the future on the past."
+msgstr ""
+
+#: quotes/fr.py:80
+msgid "What makes the desert beautiful is that somewhere it hides a well."
+msgstr ""
+
+#: quotes/fr.py:81 quotes/fr.py:85
+msgid "Antoine de Saint-Exupéry"
+msgstr ""
+
+#: quotes/fr.py:84
+msgid "Love does not consist in gazing at each other, but in looking outward together in the same direction."
+msgstr ""
+
+#: quotes/fr.py:88
+msgid "Genius is nothing but a greater aptitude for patience."
+msgstr ""
+
+#: quotes/fr.py:89
+msgid "Georges-Louis Leclerc, Comte de Buffon"
+msgstr ""
+
+#: quotes/fr.py:92
+msgid "The real voyage of discovery consists not in seeking new landscapes, but in having new eyes."
+msgstr ""
+
+#: quotes/fr.py:93
+#, fuzzy
+msgid "Marcel Proust"
+msgstr "Похожие статьи"
+
+#: quotes/fr.py:96
+msgid "A man is not idle because he is absorbed in thought. There is visible labor and there is invisible labor."
+msgstr ""
+
+#: quotes/fr.py:100
+msgid "It is better to be hated for what you are than to be loved for what you are not."
+msgstr ""
+
+#: quotes/fr.py:101
+msgid "André Gide"
+msgstr ""
+
+#: themes/localized_elegance/templates/404.html:3
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+#: themes/localized_elegance/templates/404.html:6
+#, python-format
+msgid "This page was not found on %(sitename)s."
+msgstr "Эта страница не найдена на %(sitename)s."
+
+#: themes/localized_elegance/templates/404.html:12
+msgid "This page does not exist"
+msgstr "Эта страница не существует"
+
+#: themes/localized_elegance/templates/404.html:17
+msgid "Unfortunately, the requested page was not found. It seems that the page you are looking for does not exist, it may have been moved or removed."
+msgstr "К сожалению, запрашиваемая страница не найдена. Кажется, что страница, которую вы ищете, не существует, возможно, она была перемещена или удалена."
+
+#: themes/localized_elegance/templates/404.html:18
+msgid "Back to the homepage"
+msgstr "Назад на главную страницу"
+
+#: themes/localized_elegance/templates/archives.html:3
+#: themes/localized_elegance/templates/archives.html:12
+#: themes/localized_elegance/templates/archives.html:13
+#: themes/localized_elegance/templates/archives.html:29
+#: themes/localized_elegance/templates/base_backup.html:83
+msgid "Archives"
+msgstr "Архивы"
+
+#: themes/localized_elegance/templates/archives.html:6
+#: themes/localized_elegance/templates/archives.html:15
+#: themes/localized_elegance/templates/archives.html:16
+#, python-format
+msgid "The full %(sitename)s archives"
+msgstr "Полные архивы для %(sitename)s"
+
+#: themes/localized_elegance/templates/article.html:240
+#: themes/localized_elegance/templates/article.html:248
+#: themes/localized_elegance/templates/article_with_ableplayer.html:56
+#: themes/localized_elegance/templates/article_with_ableplayer.html:64
+#: themes/localized_elegance/templates/article_with_videojs.html:48
+#: themes/localized_elegance/templates/article_with_videojs.html:56
+msgid "Article parts"
+msgstr "Части статьи"
+
+#: themes/localized_elegance/templates/article.html:267
+#: themes/localized_elegance/templates/article_with_ableplayer.html:83
+#: themes/localized_elegance/templates/article_with_videojs.html:75
+#: themes/localized_elegance/templates/includes/_defaults.html:239
+#: themes/localized_elegance/templates/page.html:35
+#: themes/localized_elegance/templates/recipe.html:60
+msgid "Contents"
+msgstr "Содержание"
+
+#: themes/localized_elegance/templates/article.html:300
+#: themes/localized_elegance/templates/article.html:319
+#: themes/localized_elegance/templates/article_with_ableplayer.html:120
+#: themes/localized_elegance/templates/article_with_videojs.html:112
+#: themes/localized_elegance/templates/includes/_defaults.html:246
+#: themes/localized_elegance/templates/recipe.html:106
+msgid "Previous article"
+msgstr "Предыдущая статья"
+
+#: themes/localized_elegance/templates/article.html:309
+#: themes/localized_elegance/templates/article.html:328
+#: themes/localized_elegance/templates/article_with_ableplayer.html:129
+#: themes/localized_elegance/templates/article_with_videojs.html:121
+#: themes/localized_elegance/templates/includes/_defaults.html:253
+#: themes/localized_elegance/templates/recipe.html:115
+msgid "Next article"
+msgstr "Следующая статья"
+
+#: themes/localized_elegance/templates/article.html:346
+#: themes/localized_elegance/templates/article_with_ableplayer.html:141
+#: themes/localized_elegance/templates/article_with_videojs.html:133
+#: themes/localized_elegance/templates/recipe.html:127
+msgid "Publication date"
+msgstr "Дата публикации"
+
+#: themes/localized_elegance/templates/article.html:351
+#: themes/localized_elegance/templates/article_with_ableplayer.html:146
+#: themes/localized_elegance/templates/article_with_videojs.html:138
+#: themes/localized_elegance/templates/category.html:3
+#: themes/localized_elegance/templates/includes/_defaults.html:274
+#: themes/localized_elegance/templates/index.html:122
+#: themes/localized_elegance/templates/recipe.html:132
+msgid "Category"
+msgstr "Категория"
+
+#: themes/localized_elegance/templates/article.html:357
+#: themes/localized_elegance/templates/article_with_ableplayer.html:152
+#: themes/localized_elegance/templates/article_with_videojs.html:144
+#: themes/localized_elegance/templates/base_backup.html:82
+#: themes/localized_elegance/templates/includes/_defaults.html:281
+#: themes/localized_elegance/templates/recipe.html:138
+msgid "Tags"
+msgstr "Теги"
+
+#: themes/localized_elegance/templates/article.html:386
+#: themes/localized_elegance/templates/article_with_ableplayer.html:251
+#: themes/localized_elegance/templates/article_with_videojs.html:243
+#: themes/localized_elegance/templates/base_backup.html:127
+#: themes/localized_elegance/templates/recipe.html:175
+msgid "Bravo!"
+msgstr "Браво!"
+
+#: themes/localized_elegance/templates/article.html:389
+#: themes/localized_elegance/templates/article_with_ableplayer.html:254
+#: themes/localized_elegance/templates/article_with_videojs.html:246
+#: themes/localized_elegance/templates/base_backup.html:130
+#: themes/localized_elegance/templates/recipe.html:178
+msgid "Hmmm... no."
+msgstr "Хммм... нет."
+
+#: themes/localized_elegance/templates/article_with_ableplayer.html:93
+#: themes/localized_elegance/templates/article_with_videojs.html:85
+msgid "Download"
+msgstr "Скачать"
+
+#: themes/localized_elegance/templates/base.html:62
+msgid "Toggle navigation"
+msgstr "Переключить навигацию"
+
+#: themes/localized_elegance/templates/base.html:77
+msgid "Radio"
+msgstr ""
+
+#: themes/localized_elegance/templates/base.html:80
+#: themes/localized_elegance/templates/base_backup.html:81
+msgid "Categories"
+msgstr "Категории"
+
+#: themes/localized_elegance/templates/base.html:92
+msgid "Important links"
+msgstr "Важные ссылки"
+
+#: themes/localized_elegance/templates/base.html:104
+#: themes/localized_elegance/templates/includes/_defaults.html:288
+msgid "Search"
+msgstr "Поиск"
+
+#: themes/localized_elegance/templates/base.html:107
+msgid "Voice"
+msgstr ""
+
+#: themes/localized_elegance/templates/base.html:118
+msgid "You are here"
+msgstr ""
+
+#: themes/localized_elegance/templates/base_backup.html:59
+msgid "Toggle menu visibility"
+msgstr "Переключить видимость меню"
+
+#: themes/localized_elegance/templates/categories.html:3
+msgid "All categories"
+msgstr "Все категории"
+
+#: themes/localized_elegance/templates/categories.html:8
+msgid "Hierarchy of the categories on the site"
+msgstr "Иерархия категорий на сайте"
+
+#: themes/localized_elegance/templates/categories.html:22
+msgid "No categories right now."
+msgstr "Сейчас нет категорий."
+
+#: themes/localized_elegance/templates/index.html:3
+#, python-format
+msgid "Page %(current_page)d of %(total_pages)d"
+msgstr "Страница %(current_page)d из %(total_pages)d"
+
+#: themes/localized_elegance/templates/index.html:121
+msgid "By"
+msgstr ""
+
+#: themes/localized_elegance/templates/index.html:128
+#, fuzzy, python-format
+msgid "%(num)s minute read"
+msgid_plural "%(num)s minutes read"
+msgstr[0] "%(num)s минута"
+msgstr[1] "%(num)s минуты"
+msgstr[2] "%(num)s минут"
+
+#: themes/localized_elegance/templates/includes/post_stats.html:6
+#: themes/localized_elegance/templates/index.html:129
+#, fuzzy, python-format
+msgid "%(num)s word"
+msgid_plural "%(num)s words"
+msgstr[0] "%(num)s минута"
+msgstr[1] "%(num)s минуты"
+msgstr[2] "%(num)s минут"
+
+#: themes/localized_elegance/templates/pagination.html:1
+#: themes/localized_elegance/templates/pagination.html:2
+msgid "Page navigation"
+msgstr "Навигация по страницам"
+
+#: themes/localized_elegance/templates/pagination.html:5
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+#: themes/localized_elegance/templates/pagination.html:19
+msgid "Next page"
+msgstr "Следующая страница"
+
+#: themes/localized_elegance/templates/radio.html:37
+msgid "Now playing"
+msgstr ""
+
+#: themes/localized_elegance/templates/radio.html:38
+#, fuzzy
+msgid "Next song"
+msgstr "Следующая страница"
+
+#: themes/localized_elegance/templates/radio.html:41
+msgid "Play"
+msgstr ""
+
+#: themes/localized_elegance/templates/radio.html:42
+msgid "Pause"
+msgstr ""
+
+#: themes/localized_elegance/templates/radio.html:43
+msgid "Mute"
+msgstr ""
+
+#: themes/localized_elegance/templates/radio.html:44
+msgid "Unmute"
+msgstr ""
+
+#: themes/localized_elegance/templates/radio.html:46
+msgid "Volume"
+msgstr ""
+
+#: themes/localized_elegance/templates/radio.html:51
+msgid "Time listening"
+msgstr ""
+
+#: themes/localized_elegance/templates/radio.html:52
+msgid "Current listeners"
+msgstr ""
+
+#: themes/localized_elegance/templates/radio.html:55
+#, fuzzy
+msgid "Recently played"
+msgstr "Недавние статьи"
+
+#: themes/localized_elegance/templates/radio.html:56
+msgid "History loading"
+msgstr ""
+
+#: themes/localized_elegance/templates/recipe.html:3
+msgid "Recipe"
+msgstr "Рецепт"
+
+#: themes/localized_elegance/templates/recipe.html:45
+msgid "Preparation time"
+msgstr "Время приготовления"
+
+#: themes/localized_elegance/templates/includes/post_stats.html:5
+#: themes/localized_elegance/templates/recipe.html:46
+#, python-format
+msgid "%(num)s minute"
+msgid_plural "%(num)s minutes"
+msgstr[0] "%(num)s минута"
+msgstr[1] "%(num)s минуты"
+msgstr[2] "%(num)s минут"
+
+#: themes/localized_elegance/templates/recipe.html:49
+msgid "Difficulty"
+msgstr "Сложность"
+
+#: themes/localized_elegance/templates/search.html:69
+msgid "Search results"
+msgstr "Результаты поиска"
+
+#: themes/localized_elegance/templates/tag.html:3
+msgid "Tag"
+msgstr "Метка"
+
+#: themes/localized_elegance/templates/tags.html:3
+#: themes/localized_elegance/templates/tags.html:11
+#: themes/localized_elegance/templates/tags.html:12
+msgid "Tag cloud"
+msgstr "Облако меток"
+
+#: themes/localized_elegance/templates/tags.html:6
+#: themes/localized_elegance/templates/tags.html:14
+#: themes/localized_elegance/templates/tags.html:15
+#, python-format
+msgid "%(sitename)s's tag cloud"
+msgstr "Облако меток %(sitename)s"
+
+#: themes/localized_elegance/templates/tags.html:32
+msgid "All tags"
+msgstr "Все метки"
+
+#: themes/localized_elegance/templates/tags.html:38
+msgid "Find a tag..."
+msgstr "Найти метку..."
+
+#: themes/localized_elegance/templates/includes/_defaults.html:3
+msgid "Related articles"
+msgstr "Похожие статьи"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:10
+msgid "Stay in touch"
+msgstr "Оставайтесь на связи"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:17
+msgid "My projects"
+msgstr "Мои проекты"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:24
+msgid "Newsletter"
+msgstr "Рассылка"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:31
+msgid "Type your email address..."
+msgstr "Введите адрес электронной почты..."
+
+#: themes/localized_elegance/templates/includes/_defaults.html:38
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:52
+#: themes/localized_elegance/templates/includes/share_links.html:5
+msgid "Share:"
+msgstr "Поделиться:"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:59
+#: themes/localized_elegance/templates/includes/comments.html:20
+msgid "Comments"
+msgstr "Комментарии"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:229
+msgid "Twitter"
+msgstr "Твитер"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:229
+msgid "Facebook"
+msgstr "Фейсбук"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:229
+msgid "Email"
+msgstr "Эл. почта"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:260
+msgid "Date of publication"
+msgstr "Дата публикации"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:267
+#: themes/localized_elegance/templates/includes/last_updated.html:3
+msgid "Last modified"
+msgstr "Последнее изменение"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:295
+msgid "Search results for"
+msgstr "Результаты поиска для"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:302
+msgid "Reading time"
+msgstr "Время чтения"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:309
+#: themes/localized_elegance/templates/includes/translations.html:3
+msgid "Also available in these languages"
+msgstr "Также доступно на этих языках"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:316
+msgid "Recent articles"
+msgstr "Недавние статьи"
+
+#: themes/localized_elegance/templates/includes/comments.html:26
+#, fuzzy
+msgid "Toggle comments"
+msgstr "Комментарии"
+
+#: themes/localized_elegance/templates/includes/footer.html:2
+#, python-format
+msgid "Copyright © %(years)s %(sitename)s – by %(author)s. All rights reserved."
+msgstr "Авторские права © %(years)s %(sitename)s – %(author)s. Все права защищены."
+
+#: themes/localized_elegance/templates/includes/footer.html:12
+#, python-format
+msgid "Powered by %(pelican)s."
+msgstr "Работает на %(pelican)s."
+
+#: themes/localized_elegance/templates/includes/footer.html:13
+#, python-format
+msgid "Theme based on the fantastic %(theme)s theme."
+msgstr "Тема основана на фантастической теме %(theme)s."
+
+#: themes/localized_elegance/templates/includes/footer.html:15
+msgid "Hosted on"
+msgstr "Размещается на"
+
+#: themes/localized_elegance/templates/includes/last_updated.html:6
+#, fuzzy, python-format
+msgid "%(num)s day ago"
+msgid_plural "%(num)s days ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: themes/localized_elegance/templates/includes/post_stats.html:3
+msgid "Estimated reading time"
+msgstr "Ориентировочное время чтения"
+
+#: themes/localized_elegance/templates/includes/quotes.html:21
+#, fuzzy
+msgid "Previous"
+msgstr "Предыдущая страница"
+
+#: themes/localized_elegance/templates/includes/quotes.html:25
+#, fuzzy
+msgid "Next"
+msgstr "Следующая страница"
+
+#: themes/localized_elegance/templates/includes/similar_posts.html:3
+msgid "Similar posts"
+msgstr "Похожие статьи"
+
+#~ msgid "List of categories"
+#~ msgstr "Список категорий"
+
+#~ msgid "Die Grenzen meiner Sprache bedeuten die Grenzen meiner Welt."
+#~ msgstr ""
+
+#~ msgid "Ludwig Wittgenstein"
+#~ msgstr ""
+
+#~ msgid "Sprache ist die Kleidung der Gedanken."
+#~ msgstr ""
+
+#~ msgid "Friedrich Schiller"
+#~ msgstr ""
+
+#~ msgid "Wer fremde Sprachen nicht kennt, weiß nichts von seiner eigenen."
+#~ msgstr ""
+
+#~ msgid "Johann Wolfgang von Goethe"
+#~ msgstr ""
+
+#~ msgid "Die Sprache ist der Schlüssel zur Welt."
+#~ msgstr ""
+
+#~ msgid "Heinrich Heine"
+#~ msgstr ""
+
+#~ msgid "Im Grunde sind es immer die Verbindungen mit Menschen, die dem Leben seinen Wert geben."
+#~ msgstr ""
+
+#~ msgid "Wilhelm von Humboldt"
+#~ msgstr ""
+
+#~ msgid "Lernen ist Erfahrung. Alles andere ist einfach nur Information."
+#~ msgstr ""
+
+#~ msgid "Albert Einstein"
+#~ msgstr ""
+
+#~ msgid "Ohne Musik wäre das Leben ein Irrtum."
+#~ msgstr ""
+
+#~ msgid "Friedrich Nietzsche"
+#~ msgstr ""
+
+#~ msgid "Wer nichts weiß, muss alles glauben."
+#~ msgstr ""
+
+#~ msgid "Georg Christoph Lichtenberg"
+#~ msgstr ""
+
+#~ msgid "Es ist ein ungeheures Glück, wenn man fähig ist, sich freuen zu können."
+#~ msgstr ""
+
+#~ msgid "Theodor Fontane"
+#~ msgstr ""
+
+#~ msgid "Sprache ist der Schöpfer von Gedanken."
+#~ msgstr ""
+
+#~ msgid "Berthold Auerbach"
+#~ msgstr ""
+
+#~ msgid "Wissen ist nicht genug; wir müssen es anwenden. Wollen ist nicht genug; wir müssen tun."
+#~ msgstr ""
+
+#~ msgid "Philosophie ist der Versuch, alle Erfahrungen zu einem System zu ordnen."
+#~ msgstr ""
+
+#~ msgid "Friedrich Wilhelm Joseph Schelling"
+#~ msgstr ""
+
+#~ msgid "Die höchste Form der Hoffnung ist die überwundene Verzweiflung."
+#~ msgstr ""
+
+#~ msgid "Albert Camus"
+#~ msgstr ""
+
+#~ msgid "Wir müssen wissen. Wir werden wissen."
+#~ msgstr ""
+
+#~ msgid "David Hilbert"
+#~ msgstr ""
+
+#~ msgid "Der Mensch ist nichts anderes als das, wozu er sich macht."
+#~ msgstr ""
+
+#~ msgid "Jean-Paul Sartre"
+#~ msgstr ""
+
+#~ msgid "Das Leben kann nur rückwärts verstanden werden, aber es muss vorwärts gelebt werden."
+#~ msgstr ""
+
+#~ msgid "Søren Kierkegaard"
+#~ msgstr ""
+
+#~ msgid "Erkenne dich selbst!"
+#~ msgstr ""
+
+#~ msgid "Sokrates"
+#~ msgstr ""
+
+#~ msgid "Die Freiheit des Menschen liegt nicht darin, dass er tun kann, was er will, sondern dass er nicht tun muss, was er nicht will."
+#~ msgstr ""
+
+#~ msgid "Jean-Jacques Rousseau"
+#~ msgstr ""
+
+#~ msgid "Der Glaube versetzt Berge."
+#~ msgstr ""
+
+#~ msgid "Neues Testament"
+#~ msgstr ""
+
+#~ msgid "Wir können den Wind nicht ändern, aber die Segel anders setzen."
+#~ msgstr ""
+
+#~ msgid "Aristoteles"
+#~ msgstr ""
+
+#~ msgid "Der Mensch ist zur Freiheit verurteilt."
+#~ msgstr ""
+
+#~ msgid "Das Leben besteht zu drei Vierteln aus Freundschaft."
+#~ msgstr ""
+
+#~ msgid "Marcus Tullius Cicero"
+#~ msgstr ""
+
+#~ msgid "Nicht den Tod sollte man fürchten, sondern dass man nie beginnen wird, zu leben."
+#~ msgstr ""
+
+#~ msgid "Marcus Aurelius"
+#~ msgstr ""
+
+#~ msgid "In der Ruhe liegt die Kraft."
+#~ msgstr ""
+
+#~ msgid "Konfuzius"
+#~ msgstr ""
+
+#~ msgid "In einem ruhigen Geist ist Platz für viele Gedanken."
+#~ msgstr ""
+
+#~ msgid "Ich bin der Wahrheit verpflichtet, wie ich sie jeden Tag erkenne, und nicht der Beständigkeit."
+#~ msgstr ""
+
+#~ msgid "Mahatma Gandhi"
+#~ msgstr ""
+
+#~ msgid "Die Wahrheit wird euch frei machen."
+#~ msgstr ""
+
+#~ msgid "Wissen ist Macht."
+#~ msgstr ""
+
+#~ msgid "Francis Bacon"
+#~ msgstr ""
+
+#~ msgid "Die beste Regierung ist die, die uns lehrt, uns selbst zu regieren."
+#~ msgstr ""
+
+#~ msgid "Das Ziel des Lebens ist das Leben selbst."
+#~ msgstr ""
+
+#~ msgid "Nichts Großes in der Welt ist ohne Leidenschaft vollbracht worden."
+#~ msgstr ""
+
+#~ msgid "Georg Wilhelm Friedrich Hegel"
+#~ msgstr ""
+
+#~ msgid "Musik ist eine höhere Offenbarung als alle Weisheit und Philosophie."
+#~ msgstr ""
+
+#~ msgid "Ludwig van Beethoven"
+#~ msgstr ""
+
+#~ msgid "Talent trifft ein Ziel, das niemand sonst treffen kann; Genie trifft ein Ziel, das niemand sonst sehen kann."
+#~ msgstr ""
+
+#~ msgid "Arthur Schopenhauer"
+#~ msgstr ""
+
+#~ msgid "Der einzige Mensch, der sich vernünftig benimmt, ist mein Schneider; er nimmt jedes Mal neu Maß, wenn er mich trifft, während alle anderen immer die alten Maßstäbe anlegen in der Meinung, sie passten auch heute noch."
+#~ msgstr ""
+
+#~ msgid "George Bernard Shaw"
+#~ msgstr ""
+
+#~ msgid "Philosophen haben die Welt nur verschieden interpretiert; es kömmt drauf an, sie zu verändern."
+#~ msgstr ""
+
+#~ msgid "Karl Marx"
+#~ msgstr ""
+
+#~ msgid "Freiheit bedeutet Verantwortlichkeit; das ist der Grund, warum die meisten Menschen sich vor ihr fürchten."
+#~ msgstr ""
+
+#~ msgid "Ein Tropfen Liebe ist mehr als ein Ozean Verstand."
+#~ msgstr ""
+
+#~ msgid "Blaise Pascal"
+#~ msgstr ""
+
+#~ msgid "Es gibt keine größere Qual, als eine unerzählte Geschichte in sich zu tragen."
+#~ msgstr ""
+
+#~ msgid "Maya Angelou"
+#~ msgstr ""
+
+#~ msgid "Die reinste Form des Wahnsinns ist es, alles beim Alten zu lassen und gleichzeitig zu hoffen, dass sich etwas ändert."
+#~ msgstr ""
+
+#~ msgid "Das Leben ist das, was passiert, während du damit beschäftigt bist, andere Pläne zu machen."
+#~ msgstr ""
+
+#~ msgid "John Lennon"
+#~ msgstr ""
+
+#~ msgid "Nicht die Schönheit entscheidet, wen wir lieben, sondern die Liebe entscheidet, wen wir schön finden."
+#~ msgstr ""
+
+#~ msgid "Ich denke, also bin ich."
+#~ msgstr ""
+
+#~ msgid "René Descartes"
+#~ msgstr ""
+
+#~ msgid "Der schlimmste Weg, den man wählen kann, ist der, keinen zu wählen."
+#~ msgstr ""
+
+#~ msgid "Friedrich Wilhelm Nietzsche"
+#~ msgstr ""
+
+#~ msgid "Das einzige, was wir zu fürchten haben, ist die Furcht selbst."
+#~ msgstr ""
+
+#~ msgid "Franklin D. Roosevelt"
+#~ msgstr ""
+
+#~ msgid "Die einzige Weise, wie wir die Welt verändern, ist, indem wir den Menschen verändern."
+#~ msgstr ""
+
+#~ msgid "Nelson Mandela"
+#~ msgstr ""
+
+#~ msgid "Wenn du einen Fehler machst, erinnere dich: Das einzige, was dich definiert, ist, wie schnell du wieder auf die Beine kommst."
+#~ msgstr ""
+
+#~ msgid "Stephen Richards"
+#~ msgstr ""
+
+#~ msgid "Glück ist nicht etwas Fertiges. Es kommt aus deinen eigenen Handlungen."
+#~ msgstr ""
+
+#~ msgid "Dalai Lama"
+#~ msgstr ""
+
+#~ msgid "Sei du selbst die Veränderung, die du dir wünschst für diese Welt."
+#~ msgstr ""
+
+#~ msgid "Wir leben nicht, um zu denken, sondern wir denken, um zu leben."
+#~ msgstr ""
+
+#~ msgid "Jose Ortega y Gasset"
+#~ msgstr ""
+
+#~ msgid "Jeder Tag ist ein neuer Anfang."
+#~ msgstr ""
+
+#~ msgid "Meister Eckhart"
+#~ msgstr ""
+
+#~ msgid "Du kannst alle Leute für eine Zeit täuschen und einige Leute die ganze Zeit, aber du kannst nicht alle Leute die ganze Zeit täuschen."
+#~ msgstr ""
+
+#~ msgid "Abraham Lincoln"
+#~ msgstr ""
+
+#~ msgid "Es ist nicht unsere Aufgabe, die Zukunft vorherzusagen, sondern auf sie gut vorbereitet zu sein."
+#~ msgstr ""
+
+#~ msgid "Perikles"
+#~ msgstr ""
+
+#~ msgid "Der einzige Mensch, der keinen Fehler macht, ist der, der nichts macht."
+#~ msgstr ""
+
+#~ msgid "Theodore Roosevelt"
+#~ msgstr ""
+
+#~ msgid "Wo Liebe ist, wird das Unmögliche möglich."
+#~ msgstr ""
+
+#~ msgid "Buddha"
+#~ msgstr ""
+
+#~ msgid "Bildung ist die mächtigste Waffe, die du verwenden kannst, um die Welt zu verändern."
+#~ msgstr ""
+
+#~ msgid "Wenn du glücklich sein willst, sei es."
+#~ msgstr ""
+
+#~ msgid "Leo Tolstoi"
+#~ msgstr ""
+
+#~ msgid "Der beste Weg, die Zukunft vorauszusagen, ist, sie zu erschaffen."
+#~ msgstr ""
+
+#~ msgid "Peter Drucker"
+#~ msgstr ""
+
+#~ msgid "Es gibt keine Wolke, die nicht ihre silberne Lining hat."
+#~ msgstr ""
+
+#~ msgid "John Milton"
+#~ msgstr ""
+
+#~ msgid "Alles Große und Entscheidende im Leben geschieht mit Lärm und Tumult."
+#~ msgstr ""
+
+#~ msgid "Ein Ziel ohne Plan ist nur ein Wunsch."
+#~ msgstr ""
+
+#~ msgid "Antoine de Saint-Exupéry"
+#~ msgstr ""
+
+#~ msgid "Es gibt mehr Schätze in Büchern als Piratenbeute auf der Schatzinsel."
+#~ msgstr ""
+
+#~ msgid "Walt Disney"
+#~ msgstr ""
+
+#~ msgid "Das Leben ist ein Geschenk, das wir verdienen, indem wir es richtig annehmen."
+#~ msgstr ""
+
+#~ msgid "Robert Louis Stevenson"
+#~ msgstr ""
+
+#~ msgid "Alles, was du dir vorstellen kannst, ist echt."
+#~ msgstr ""
+
+#~ msgid "Pablo Picasso"
+#~ msgstr ""
+
+#~ msgid "Der Mensch ist das einzige Lebewesen, das lernen muss, was die Welt ist, um darin leben zu können."
+#~ msgstr ""
+
+#~ msgid "Immanuel Kant"
+#~ msgstr ""
+
+#~ msgid "Die Wahrheit ist im Innern des Menschen."
+#~ msgstr ""
+
+#~ msgid "Augustinus von Hippo"
+#~ msgstr ""
+
+#~ msgid "Erfolg ist der Lohn für Anstrengung."
+#~ msgstr ""
+
+#~ msgid "Sophokles"
+#~ msgstr ""
+
+#~ msgid "Lass deine Träume größer sein als deine Ängste und deine Taten lauter als deine Worte."
+#~ msgstr ""
+
+#~ msgid "Unbekannt"
+#~ msgstr ""
+
+#~ msgid "Ich habe keine besonderen Talente. Ich bin nur leidenschaftlich neugierig."
+#~ msgstr ""
+
+#~ msgid "Es gibt nichts Beständigeres als den Wandel."
+#~ msgstr ""
+
+#~ msgid "Heraklit"
+#~ msgstr ""
+
+#~ msgid "words"
+#~ msgstr ""
+
+#~ msgid "%(blurb)s"
+#~ msgstr ""
+
+#~ msgid "I like languages, reading, writing, music, programming. Oh, and I'm the proudest aunt in the world! :pink_heart::light_blue_heart:"
+#~ msgstr ""
+

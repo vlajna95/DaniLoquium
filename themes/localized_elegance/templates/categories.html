@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}{{ gettext("All categories") }} {{ super() }}{% endblock title %}
+
+{% block content %}
+<div id="content">
+<div class="post">
+<h1 class="title">{{ gettext("Hierarchy of the categories on the site") }}</h1>
+{% if categories %}
+{{ macros.category_hierarchy(category_hierarchy, SITEURL) }}
+<hr />
+{#
+<ul>
+{% for category, articles in categories %}
+{% for cat in category.descendants or [category] %}
+<li><a href="{{ SITEURL }}/{{ cat.url }}" class="category-link">{{ cat.shortname or cat }}</a>{{ ' / ' if not loop.last }}</li>
+{% endfor %}
+{% endfor %}
+</ul>
+#}
+{% else %}
+<p>{{ gettext("No categories right now.") }}</p>
+{% endif %}
+</div>
+</div>
+{% endblock content %}

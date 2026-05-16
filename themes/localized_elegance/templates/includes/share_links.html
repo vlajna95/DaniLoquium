@@ -1,0 +1,11 @@
+{% macro share_links(article) %}
+{% from 'includes/_defaults.html' import SHARE_LINKS with context %}
+{% if article.share_post and article.status != 'draft' and SHARE_LINKS %}
+<p id="post-share-links">
+{{ gettext("Share:") }} 
+{% for network, label in SHARE_LINKS %}
+{% if not loop.first %} ❄ {% endif %}
+<a href="{{ article.share_post[network] }}" target="_blank" rel="nofollow noopener noreferrer" title="{{ label }}">{{ label }}</a>
+{% endfor %}
+{% endif %}
+{% endmacro %}

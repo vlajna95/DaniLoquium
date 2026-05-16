@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block title %}{{ gettext("Page not found") }} {{ TITLE_SEPARATOR }} {{ super() }}{% endblock title %}
+
+{% block head_description %}
+{{ gettext("This page was not found on %(sitename)s.", sitename=SITENAME|striptags|e) }}
+{% endblock head_description %}
+
+{% block content %}
+<div class="row-fluid">
+<header class="page-header span10 offset2">
+<h1>{{ gettext("This page does not exist") }}</h1>
+</header>
+</div>
+<div class="row-fluid">
+<div class="span8 offset2">
+<p>{{ gettext("Unfortunately, the requested page was not found. It seems that the page you are looking for does not exist, it may have been moved or removed.") }}</p>
+<p><a href="{{ SITEURL }}">{{ gettext("Back to the homepage") }}</a></p>
+{#
+<div class="input-append">
+{% from 'includes/_defaults.html' import SEARCH_URL with context %}
+<form action="{{ SITEURL }}/{{ SEARCH_URL }}" onsubmit="return validateForm(this.elements['q'].value)">
+<input type="text" class="span12" placeholder="Pretraga..." name="q" id="tipue_search_input_404" />
+<button class="btn" type="submit">Pretraži</button>
+</form>
+</div>
+#}
+</div>
+</div>
+{% endblock content %}
+
+{#
+{% block script %}
+{{ super() }}
+<script type="text/javascript">
+// Get Current location as the initial search item
+var newurl = (' ' + window.location.pathname).slice(1);
+// Replace "/" in path into spaces
+var newurl = newurl.replace(/\//g, ' ');
+// Remove html extension
+var newurl = newurl.replace(/.html/g, ' ');
+// Replace - by ' '
+var newurl = newurl.replace(/\-/g, ' ');
+// Fill search field with resulting string
+document.getElementById('tipue_search_input_404').value = newurl;
+</script>
+{% endblock script %}
+#}

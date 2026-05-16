@@ -1,0 +1,66 @@
+/* style.css */
+
+body {
+	background: linear-gradient(to bottom right, #191970, #002f6c); /* gradient from midnight blue to deep blue */
+	color: white;
+	font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+	text-shadow: 0 0 3px #c0c0c0, 0 0 5px #c0c0c0; /* adds a subtle glow to the text */
+}
+
+.page-title {
+	margin-bottom: 20px;
+	text-align: center;
+	color: #ffd700; /* gold */
+	text-shadow: 0 0 10px rgba(255, 215, 0, 0.7), 0 0 20px rgba(255, 215, 0, 0.5); /* outer and inner glow */
+	font-size: 2em;
+}
+
+.player-container {
+	text-align: center;
+	max-width: 600px;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+#currentSongContainer {
+	font-size: 125%;
+	font-weight: 700;
+}
+
+.custom-player {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.player-control {
+	display: inline-block;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.player-control, input {
+	background-color: #0074d9; /* a warm shade of blue */
+	color: white;
+}
+
+.hidden {
+	display: none;
+}
+
+#volumeControlContainer {
+	margin-top: 10px;
+}
+
+.song-history-entry {
+	font-size: 95%;
+	font-weight: bold;
+}

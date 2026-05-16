@@ -1,0 +1,8 @@
+{% from 'includes/_defaults.html' import READING_TIME_LOWER_LIMIT with context %}
+{% if article.stats and article.stats['read_mins'] and article.stats['read_mins'] > READING_TIME_LOWER_LIMIT %}
+<h4>{{ gettext("Estimated reading time") }}</h4>
+<p>
+~{{ ngettext("%(num)s minute", "%(num)s minutes", article.stats['read_mins']) }}, 
+<span itemprop="wordCount">{{ ngettext("%(num)s word", "%(num)s words", article.stats["wc"]) }}</span>
+</p>
+{% endif %}

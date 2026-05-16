@@ -1,0 +1,16 @@
+{% if article.similar_posts %}
+<div>
+<h4>{{ gettext("Similar posts") }}</h4>
+<ul class="similar-posts-list">
+{% for similar_post in article.similar_posts|sort(attribute = 'date') %}
+{% set v_title = similar_post.title|striptags %}
+{% set title = similar_post.title|striptags|e %}
+{% if similar_post.subtitle %}
+{% set title = title + ' - ' + similar_post.subtitle|striptags|e %}
+{% set v_title = v_title + ' <br />' + '<small>' + similar_post.subtitle|striptags + '</small>' %}
+{% endif %}
+<li><a href="{{ SITEURL }}/{{ similar_post.url }}" title="{{ title }}">{{ v_title }}</a></li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Transkribovani plejer</title>
+<link src="videojs/video-js.css" rel="stylesheet" />
+<link src="videojs/plugins/videojs-transcript/css/wine.css" rel="stylesheet" />
+<script src="videojs/video.js"></script>
+<script src="videojs/plugins/videojs-transcript/videojs-transcript.min.js"></script>
+<script src="videojs/lang/fr.js"></script>
+</head>
+<body>
+<h1>TPlayer</h1>
+<audio src="http://fr.daniloquium.xyz/audio/Français pratique/Conversation__cuisine__recette_simple.mp3" title="Conversation – Recette simple" id="conversation" oncanplay="showTranscript('conversation', 'transcript1');">
+<track src="http://fr.daniloquium.xyz/docs/vtt/Conversation__cuisine__recette_simple.vtt" srclang="fr" kind="subtitles" label="Français" default />
+<track src="http://fr.daniloquium.xyz/docs/vtt/Conversation__cuisine__recette_simple__sr.vtt" srclang="sr" kind="subtitles" label="Srpski" />
+</audio>
+<div id="transcript1" class="transcript-container">
+<h3>Transcript</h3>
+</div>
+
+<script>
+// set up player options
+var playerOptions = {
+audioOnlyMode: true,
+autoplay: false,
+// children: ["controlBar", "errorDisplay", "textTrackSettings"],
+children: {
+mediaLoader: true,
+// posterImage: false,
+textTrackDisplay: false,
+// bigPlayButton: false,
+controlBar: {
+playToggle: true,
+volumePanel: true,
+// currentTimeDisplay: true,
+// timeDivider: true,
+// durationDisplay: true,
+remainingTimeDisplay: true,
+// progressControl: seekBar, loadProgressBar, mouseTimeDisplay, playProgressBar
+// liveDisplay: false, // hidden during VOD playback
+// seekToLive: false, // hidden during VOD playback
+// customControlSpacer // has no UI
+// playbackRateMenuButton: true, // hidden, unless playback tech supports rate changes
+// chaptersButton: false, // if true, hidden, unless there are relevant tracks
+// descriptionsButton: false, // if true, hidden, unless there are relevant tracks
+subsCapsButton: true, // hidden, unless there are relevant tracks
+// audioTrackButton: false, // if true, hidden, unless there are relevant tracks
+// pictureInPictureToggle: false,
+// fullscreenToggle: false,
+},
+// errorDisplay: true, // hidden, until there is an error
+textTrackSettings: true,
+},
+// controlBar.remainingTimeDisplay.displayNegative: false,
+controls: true,
+language: "fr",
+preload: "auto",
+controlBar: {
+skipButtons: {
+backward: 10,
+forward: 10,
+},
+},
+userActions: {
+hotkeys: true,
+},
+};
+
+function showTranscript(playerControlId, transcriptContainerId) {
+alert(playerControlId);
+var player = videojs(playerControlId, playerOptions);
+player.ready(function() {
+// set up transcript options
+var transcriptOptions = {
+autoscroll: true,
+scrollToCenter: true,
+clickArea: "line",
+showTitle: false,
+showTrackSelector: true,
+followPlayerTrack: true,
+stopScrollWhenInUse: true,
+};
+// initialize the plugin
+var transcript = this.transcript(transcriptOptions);
+// attach the widget to the page
+var transcriptContainer = document.getElementById(transcriptContainerId);
+transcriptContainer.appendChild(transcript.el());
+});
+}
+</script>
+</body>
+</html>

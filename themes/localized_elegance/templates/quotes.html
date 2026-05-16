@@ -1,0 +1,27 @@
+<div id="quotes-carousel" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="hover" data-keyboard="true" data-wrap="true">
+{#
+<ol class="carousel-indicators">
+{% for q in range(0, QUOTES|length) %}
+<li data-target="#quotes-carousel" data-slide-to="{{ q }}"{% if q==0 %} class="active"{% endif %}></li>
+{% endfor %}
+</ol>
+#}
+<div class="carousel-inner">
+{% for quote in QUOTES %}
+<div class="carousel-item{# {% if loop.first %} active{% endif %} #}">
+<span class="{{ ''|speakable_filter }} d-block w-100">{{ quote.text }}</span>
+<div class="carousel-caption">
+<strong>– <em>{{ quote.author }}</em></strong>
+</div><!-- carousel-caption -->
+</div><!-- carousel-item -->
+{% endfor %}
+</div><!-- carousel-inner -->
+<a class="left carousel-control-prev" href="#quotes-carousel" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="sr-only">{{ gettext("Previous") }}</span>
+</a>
+<a class="right carousel-control-next" href="#quotes-carousel" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">{{ gettext("Next") }}</span>
+</a>
+</div><!-- closes quotes-carousel -->

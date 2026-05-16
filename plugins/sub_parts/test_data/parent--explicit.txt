@@ -1,0 +1,5 @@
+title: Explicit sub-article
+tags: a tag
+slug: parent--explicit
+
+Explicit sub-article, based on explicit slug.

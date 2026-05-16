@@ -1,2 +1,19 @@
-pelican[markdown]==4.11.0
-
+pelican
+markdown
+pelican-jinja2content
+pelican-more-categories
+pelican-neighbors
+pelican-series
+pelican-sitemap
+pelican-seo
+pelican-similar-posts
+pelican-tag-cloud
+babel
+python-gettext
+pymdown-extensions
+pygments
+git+https://github.com/vlajna95/pelican-tipue-search
+git+https://github.com/vlajna95/markdown-customblocks
+git+https://github.com/vlajna95/mdx-tablespan
+# git+https://github.com/vlajna95/mdx-include-lines
+markdown-captions

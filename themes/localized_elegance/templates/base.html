@@ -1,0 +1,193 @@
+{% import "macros.html" as macros %}
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+{% if CLAIM_GOOGLE %}
+{% include 'includes/claim_google.html' with context %}
+{% endif %}
+{% if CLAIM_BING %}
+{% include 'includes/claim_bing.html' with context %}
+{% endif %}
+{% if CLAIM_YANDEX %}
+{% include 'includes/claim_yandex.html' with context %}
+{% endif %}
+{% if article and article.author %}
+<meta name="author" content="{{ article.author }}" />
+{% elif page and page.author %}
+<meta name="author" content="{{ page.author }}" />
+{% else %}
+<meta name="author" content="{{ AUTHOR }}" />
+{% endif %}
+<meta name="description" content="{% block head_description %}{{ SITE_DESCRIPTION|e }}{% endblock head_description %}" />
+{% block meta_tags_in_head %}
+{% from 'includes/_defaults.html' import TWITTER_USERNAME with context %}
+{% if TWITTER_USERNAME %}
+<meta name="twitter:creator" content="@{{ TWITTER_USERNAME }}" />
+{% endif %}
+<meta property="og:type" content="article" />
+<meta name="twitter:card" content="summary" />
+{% endblock meta_tags_in_head %}
+<title>{% block title %}{% if page_name != 'index' %}{{ TITLE_SEPARATOR }} {% endif %}{{ SITENAME|striptags|e }}{% endblock title %}</title>
+{% include 'includes/favicon_links.html' %}
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&family=Tangerine:wght@700&display=swap" rel="stylesheet" />
+{% block feed_links %}
+{% include 'includes/feeds.html' %}
+{% endblock feed_links %}
+{% include 'includes/analytics.html' %}
+{% block head_links %}
+{% if 'assets' in PLUGINS%}
+{% include 'includes/minify_css.html' with context %}
+{% else %}
+<link rel="stylesheet" href="{{ main_siteurl }}/theme/css/bootstrap.min.css" media="all" />
+<link rel="stylesheet" type="text/css" href="{{ main_siteurl }}/theme/css/elegance.css" media="all" />{# theme/css/elegant.prod.9e9d5ce754.css" #}
+<link rel="stylesheet" type="text/css" href="{{ main_siteurl }}/theme/css/custom.css" media="all" />
+<link rel="stylesheet" type="text/css" href="{{ main_siteurl }}/theme/fontawesome/css/all.css" />
+<link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css" />
+{% endif %}
+{% endblock head_links %}
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="{{ main_siteurl }}/theme/js/bootstrap.bundle.min.js"></script>
+{% block head_extras %}
+{% endblock head_extras %}
+</head>
+
+<body>
+<div id="content">
+<div class="navbar navbar-dark bg-dark navbar-static-top">
+<div class="container-fluid">
+<button type="button" id="main-menu-toggler" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="true" aria-label="{% trans %}Toggle navigation{% endtrans %}">
+<span class="navbar-toggler-icon"></span>
+</button>
+<nav class="navbar-collapse in" id="main-menu">
+<span class="navbar-brand"><span class=site-name>{{ SITENAME }}</span>{% if SITESUBTITLE %} <br />{{ SITESUBTITLE }}{% endif %}</span>
+<ul class="nav navbar-nav pull-right top-menu disclosure-nav" id="menubar">
+<li class="nav-item"><a class="nav-link{% if page_name=='index' %} active{% endif %}" {% if page_name=='index' %}aria-current="page"{% endif %} href={% if SITEURL %}"{{ SITEURL }}"{% else %}"/"{% endif %}>{{ HOMEPAGE_TITLE }}</a></li>
+{# <li><a href="{{ SITEURL }}/blog">Blog</a></li> #}
+{% if DISPLAY_PAGES_ON_MENU %}
+{% for p in pages %}
+{# {% if p.lang == LANG_CODE %} #}
+<li class="nav-item"><a class="nav-link{% if p==page %} active{% endif %}" {% if p==page %}aria-current="page"{% endif %} href="{{ SITEURL }}/{{ p.url }}" title="{{ p.summary|striptags|e }}">{{ p.title }}</a></li>
+{# {% endif %} #}
+{% endfor %}
+{% endif %}
+<li class="nav-item"><a class="nav-link" href="{{ SITEURL }}/radio" title="{{ RADIO_NAME }}">{% trans %}Radio{% endtrans %}</a></li>
+{% if DISPLAY_CATEGORIES_ON_MENU %}
+<li class="nav-item dropdown">
+<a href="#" role="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{% trans %}Categories{% endtrans %}</a>
+{{ macros.menu_categories_hierarchy(category_hierarchy, SITEURL) }}
+</li>
+{% endif %}
+{#
+<li{% if page_name=="categories" %} class="active" aria-current="page"{% endif %}><a href="{{ SITEURL }}/categories">{% trans %}Categories{% endtrans %}</a></li>
+<li{% if page_name=='tags' %} class="active"{% endif %}><a href="{{ SITEURL }}/tags">{% trans %}Tags{% endtrans %}</a></li>
+<li{% if page_name=='archives' %} class="active"{% endif %}><a href="{{ SITEURL }}/archives">{% trans %}Archives{% endtrans %}</a></li>
+#}
+{% if MENUITEMS %}
+<li class="nav-item dropdown">
+<button href="#" class="nav-item dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+{% if MENUITEMS_TITLE %}{{ MENUITEMS_TITLE }}{% else %}{{ _("Important links") }}{% endif %}
+</button>
+<ul class="dropdown-menu">
+{% for label, path in MENUITEMS %}
+<li><a class="dropdown-item" href="{{ path }}">{{ label }}</a></li>
+{% endfor %}
+</ul>
+</li>
+{% endif %}
+</ul>
+<div class="nav navbar-right">
+<form class="navbar-search" action="{{ SITEURL }}/{{ SEARCH_URL }}" onsubmit="return validateForm(this.elements['q'].value);" role="search">
+<input type="search" class="search-query" placeholder="{% trans %}Search{% endtrans %}" name="q" id="tipue_search_input" />
+</form>
+<div class="nav navbar-right d-inline ms-auto ps-4 pe-3">
+<select id="voiceSelect" aria-label="{% trans %}Voice{% endtrans %}"></select>
+</div>
+</div>
+</nav><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</div>
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span1"></div>
+<div class="span10">
+{% include "includes/quotes.html" %}
+<nav aria-label="{% trans %}You are here{% endtrans %}" class="w-100 d-inline-block" style="--bs-breadcrumb-divider: ' / ';"
+<ul class="breadcrumb">
+<li class="breadcrumb-item"><a href="{{ SITEURL }}">{{ HOMEPAGE_TITLE }}</a></li>
+{% if article %}
+{% for cat in article.category.ancestors or [article.category] %}
+<li class="breadcrumb-item"><a class="category-link" href="{{ SITEURL }}/{{ cat.url }}">{{ cat.shortname or cat }}</a></li>
+{% endfor %}
+<li class="breadcrumb-item" aria-current="page">{{ article.title }}</li>
+{% elif category %}
+{% for cat in category.ancestors or [category] %}
+<li class="breadcrumb-item"{% if loop.last %} aria-current="page"{% endif %}><a class="category-link" href="{{ SITEURL }}/{{ cat.url }}">{{ cat.shortname or cat }}</a></li>
+{% endfor %}
+{% endif %}
+</ul>
+</nav>
+{% block content %}{% endblock content %}
+</div>
+<div class="span1"></div>
+</div>
+</div>
+{% if LINKS %}
+<div class="row-fluid bg-dark text-white">
+<ul class="list-unstyled">
+{% for link_title, url in LINKS %}
+<li><a href="{{ url }}">{{ link_title }}</a></li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+{% if extra_siteurls %}
+<div class="language-buttons-container row-fluid" role="contentinfo">
+<ul class="lang_list">
+{% for lang, siteurl in lang_siteurls.items() %}
+<li><a href="{{ siteurl }}/">{{ lang|lookup_lang_name }}</a></li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+</div>
+{% include 'includes/footer.html' %}
+{% if AMAZON_BESTAZON %}
+{% include'includes/bestazon.html' %}
+{% endif %}
+<script src="{{ main_siteurl }}/theme/js/elegant.prod.9e9d5ce754.js"></script>
+<script src="{{ main_siteurl }}/theme/js/custom.js"></script>
+<script>
+function validateForm(query) {
+return(query.length>0);
+}
+
+function logText(text, elementSelector="#log") {
+$(elementSelector).text($(elementSelector).text() + text + " \n");
+console.log(text);
+}
+
+$(document).ready(function() {
+// shuffle carousel items
+$(".carousel-inner .active").first().removeClass("active");
+var items = $(".carousel-inner .carousel-item");
+for(var i=items.length-1; i>=0; i--) {
+var randomIndex = Math.floor(Math.random() * (i + 1));
+var itemAtIndex = items.eq(randomIndex);
+items.eq(i).before(itemAtIndex);
+}
+$(".carousel-inner .carousel-item").first().addClass("active");
+});
+</script>
+<script type="text/javascript" src="{{ main_siteurl }}/theme/js/speakable.js"></script>
+{% block script %}{% endblock script %}
+{# {% include'includes/stat_counter.html' %} #}
+</body>
+<!--
+Theme: Elegant built for Pelican 
+License: MIT
+-->
+</html>

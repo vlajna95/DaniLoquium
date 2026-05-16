@@ -1,0 +1,800 @@
+# Serbian translations for DaniLoquium.
+# Copyright (C) 2025 Danijela Popovic
+# This file is distributed under the same license as the DaniLoquium project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: apprenonsfrancais.cf 1.0\n"
+"Report-Msgid-Bugs-To: dani@danimundo.com\n"
+"POT-Creation-Date: 2025-03-03 07:43+0100\n"
+"PO-Revision-Date: 2025-03-03 04:31+0100\n"
+"Last-Translator: Danijela Popović <dani@danimundo.com>\n"
+"Language: sr\n"
+"Language-Team: sr <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: _conf_Deutsch__local.py:10
+msgid "Danijela Popović"
+msgstr "Danijela Popović"
+
+#: quotes/Deutsch.py:8
+msgid "The limits of my language mean the limits of my world."
+msgstr ""
+
+#: quotes/Deutsch.py:9
+msgid "Ludwig Wittgenstein"
+msgstr ""
+
+#: quotes/Deutsch.py:12
+msgid "Language is the dress of thought."
+msgstr ""
+
+#: quotes/Deutsch.py:13
+msgid "Friedrich Schiller"
+msgstr ""
+
+#: quotes/Deutsch.py:16
+msgid "Those who do not know foreign languages know nothing of their own."
+msgstr ""
+
+#: quotes/Deutsch.py:17 quotes/Deutsch.py:49 quotes/Deutsch.py:61
+#: quotes/Deutsch.py:65 quotes/Deutsch.py:69
+msgid "Johann Wolfgang von Goethe"
+msgstr ""
+
+#: quotes/Deutsch.py:20
+msgid "Language is the key to the world."
+msgstr ""
+
+#: quotes/Deutsch.py:21
+msgid "Heinrich Heine"
+msgstr ""
+
+#: quotes/Deutsch.py:24
+msgid "In the end, it is always the connections with people that give life its value."
+msgstr ""
+
+#: quotes/Deutsch.py:25
+msgid "Wilhelm von Humboldt"
+msgstr ""
+
+#: quotes/Deutsch.py:28
+msgid "Learning is experience. Everything else is just information."
+msgstr ""
+
+#: quotes/Deutsch.py:29 quotes/Deutsch.py:89
+msgid "Albert Einstein"
+msgstr ""
+
+#: quotes/Deutsch.py:32
+msgid "Without music, life would be a mistake."
+msgstr ""
+
+#: quotes/Deutsch.py:33
+msgid "Friedrich Nietzsche"
+msgstr ""
+
+#: quotes/Deutsch.py:36
+msgid "Those who know nothing must believe everything."
+msgstr ""
+
+#: quotes/Deutsch.py:37
+msgid "Georg Christoph Lichtenberg"
+msgstr ""
+
+#: quotes/Deutsch.py:40
+msgid "It is an immense happiness if one is capable of rejoicing."
+msgstr ""
+
+#: quotes/Deutsch.py:41
+msgid "Theodor Fontane"
+msgstr ""
+
+#: quotes/Deutsch.py:44
+msgid "Language is the creator of thoughts."
+msgstr ""
+
+#: quotes/Deutsch.py:45
+msgid "Berthold Auerbach"
+msgstr ""
+
+#: quotes/Deutsch.py:48
+msgid "Knowledge is not enough; we must apply. Willing is not enough; we must do."
+msgstr ""
+
+#: quotes/Deutsch.py:52
+msgid "Philosophy is the attempt to arrange all experiences into a system."
+msgstr ""
+
+#: quotes/Deutsch.py:53
+msgid "Friedrich Wilhelm Joseph Schelling"
+msgstr ""
+
+#: quotes/Deutsch.py:56
+msgid "We must know. We will know."
+msgstr ""
+
+#: quotes/Deutsch.py:57
+msgid "David Hilbert"
+msgstr ""
+
+#: quotes/Deutsch.py:60
+msgid "The truth will set you free."
+msgstr ""
+
+#: quotes/Deutsch.py:64
+msgid "The best government is that which teaches us to govern ourselves."
+msgstr ""
+
+#: quotes/Deutsch.py:68
+msgid "The goal of life is life itself."
+msgstr ""
+
+#: quotes/Deutsch.py:72
+msgid "Nothing great in the world has been accomplished without passion."
+msgstr ""
+
+#: quotes/Deutsch.py:73
+msgid "Georg Wilhelm Friedrich Hegel"
+msgstr ""
+
+#: quotes/Deutsch.py:76
+msgid "Music is a higher revelation than all wisdom and philosophy."
+msgstr ""
+
+#: quotes/Deutsch.py:77
+msgid "Ludwig van Beethoven"
+msgstr ""
+
+#: quotes/Deutsch.py:80
+msgid "Talent hits a target no one else can hit; genius hits a target no one else can see."
+msgstr ""
+
+#: quotes/Deutsch.py:81
+msgid "Arthur Schopenhauer"
+msgstr ""
+
+#: quotes/Deutsch.py:84
+msgid "Philosophers have only interpreted the world in various ways; the point, however, is to change it."
+msgstr ""
+
+#: quotes/Deutsch.py:85
+msgid "Karl Marx"
+msgstr ""
+
+#: quotes/Deutsch.py:88
+msgid "The purest form of madness is to leave everything as it is and at the same time hope that something will change."
+msgstr ""
+
+#: quotes/Deutsch.py:92
+msgid "The worst path you can choose is not choosing one at all."
+msgstr ""
+
+#: quotes/Deutsch.py:93
+msgid "Friedrich Wilhelm Nietzsche"
+msgstr ""
+
+#: quotes/Deutsch.py:96
+msgid "Every day is a new beginning."
+msgstr ""
+
+#: quotes/Deutsch.py:97
+msgid "Meister Eckhart"
+msgstr ""
+
+#: quotes/fr.py:8
+msgid "Man is nothing else but what he makes of himself."
+msgstr ""
+
+#: quotes/fr.py:9
+msgid "Jean-Paul Sartre"
+msgstr ""
+
+#: quotes/fr.py:12
+msgid "Judge a man by his questions rather than by his answers."
+msgstr ""
+
+#: quotes/fr.py:13 quotes/fr.py:45
+msgid "Voltaire"
+msgstr ""
+
+#: quotes/fr.py:16
+msgid "Imagination governs the world."
+msgstr ""
+
+#: quotes/fr.py:17
+msgid "Napoleon Bonaparte"
+msgstr ""
+
+#: quotes/fr.py:20
+msgid "To be free is not merely to cast off one’s chains, but to live in a way that respects and enhances the freedom of others."
+msgstr ""
+
+#: quotes/fr.py:21
+msgid "Simone de Beauvoir"
+msgstr ""
+
+#: quotes/fr.py:24
+msgid "Art is the most beautiful of all lies."
+msgstr ""
+
+#: quotes/fr.py:25
+msgid "Claude Debussy"
+msgstr ""
+
+#: quotes/fr.py:28
+msgid "Travel makes one modest. You see what a tiny place you occupy in the world."
+msgstr ""
+
+#: quotes/fr.py:29
+msgid "Gustave Flaubert"
+msgstr ""
+
+#: quotes/fr.py:32
+msgid "The greatest wealth is to live content with little."
+msgstr ""
+
+#: quotes/fr.py:33 quotes/fr.py:37
+msgid "Jean-Jacques Rousseau"
+msgstr ""
+
+#: quotes/fr.py:36
+msgid "The more I see of men, the more I admire dogs."
+msgstr ""
+
+#: quotes/fr.py:40
+msgid "Liberty, equality, fraternity."
+msgstr ""
+
+#: quotes/fr.py:41
+msgid "French revolution motto"
+msgstr ""
+
+#: quotes/fr.py:44
+msgid "Men argue. Nature acts."
+msgstr ""
+
+#: quotes/fr.py:48
+msgid "He who opens a school door, closes a prison."
+msgstr ""
+
+#: quotes/fr.py:49 quotes/fr.py:53 quotes/fr.py:57 quotes/fr.py:77
+#: quotes/fr.py:97
+msgid "Victor Hugo"
+msgstr ""
+
+#: quotes/fr.py:52
+msgid "To love or to have loved, that is enough. Ask nothing further."
+msgstr ""
+
+#: quotes/fr.py:56
+msgid "Music expresses that which cannot be put into words."
+msgstr ""
+
+#: quotes/fr.py:60
+msgid "To love reading is to exchange hours of boredom for delightful hours."
+msgstr ""
+
+#: quotes/fr.py:61
+msgid "Montesquieu"
+msgstr ""
+
+#: quotes/fr.py:64
+msgid "I think, therefore I am."
+msgstr ""
+
+#: quotes/fr.py:65
+msgid "René Descartes"
+msgstr ""
+
+#: quotes/fr.py:68
+msgid "The heart has its reasons, which reason does not know."
+msgstr ""
+
+#: quotes/fr.py:69 quotes/fr.py:73
+msgid "Blaise Pascal"
+msgstr ""
+
+#: quotes/fr.py:72
+msgid "The only thing that consoles us for our miseries is diversion."
+msgstr ""
+
+#: quotes/fr.py:76
+msgid "History is an echo of the past in the future; a reflex from the future on the past."
+msgstr ""
+
+#: quotes/fr.py:80
+msgid "What makes the desert beautiful is that somewhere it hides a well."
+msgstr ""
+
+#: quotes/fr.py:81 quotes/fr.py:85
+msgid "Antoine de Saint-Exupéry"
+msgstr ""
+
+#: quotes/fr.py:84
+msgid "Love does not consist in gazing at each other, but in looking outward together in the same direction."
+msgstr ""
+
+#: quotes/fr.py:88
+msgid "Genius is nothing but a greater aptitude for patience."
+msgstr ""
+
+#: quotes/fr.py:89
+msgid "Georges-Louis Leclerc, Comte de Buffon"
+msgstr ""
+
+#: quotes/fr.py:92
+msgid "The real voyage of discovery consists not in seeking new landscapes, but in having new eyes."
+msgstr ""
+
+#: quotes/fr.py:93
+msgid "Marcel Proust"
+msgstr ""
+
+#: quotes/fr.py:96
+msgid "A man is not idle because he is absorbed in thought. There is visible labor and there is invisible labor."
+msgstr ""
+
+#: quotes/fr.py:100
+msgid "It is better to be hated for what you are than to be loved for what you are not."
+msgstr ""
+
+#: quotes/fr.py:101
+msgid "André Gide"
+msgstr ""
+
+#: themes/localized_elegance/templates/404.html:3
+msgid "Page not found"
+msgstr "Stranica nije pronađena"
+
+#: themes/localized_elegance/templates/404.html:6
+#, python-format
+msgid "This page was not found on %(sitename)s."
+msgstr "Na sajtu %(sitename)s ne postoji stranica sa ovom adresom."
+
+#: themes/localized_elegance/templates/404.html:12
+msgid "This page does not exist"
+msgstr "Stranica ne postoji"
+
+#: themes/localized_elegance/templates/404.html:17
+msgid "Unfortunately, the requested page was not found. It seems that the page you are looking for does not exist, it may have been moved or removed."
+msgstr "Nažalost, tražena stranica nije pronađena. Možda je premeštena ili uklonjena."
+
+#: themes/localized_elegance/templates/404.html:18
+msgid "Back to the homepage"
+msgstr "Povratak na početnu stranu"
+
+#: themes/localized_elegance/templates/archives.html:3
+#: themes/localized_elegance/templates/archives.html:12
+#: themes/localized_elegance/templates/archives.html:13
+#: themes/localized_elegance/templates/archives.html:29
+#: themes/localized_elegance/templates/base_backup.html:83
+msgid "Archives"
+msgstr "Arhiva"
+
+#: themes/localized_elegance/templates/archives.html:6
+#: themes/localized_elegance/templates/archives.html:15
+#: themes/localized_elegance/templates/archives.html:16
+#, python-format
+msgid "The full %(sitename)s archives"
+msgstr "Kompletna arhiva sajta %(sitename)s"
+
+#: themes/localized_elegance/templates/article.html:240
+#: themes/localized_elegance/templates/article.html:248
+#: themes/localized_elegance/templates/article_with_ableplayer.html:56
+#: themes/localized_elegance/templates/article_with_ableplayer.html:64
+#: themes/localized_elegance/templates/article_with_videojs.html:48
+#: themes/localized_elegance/templates/article_with_videojs.html:56
+msgid "Article parts"
+msgstr "Delovi članka"
+
+#: themes/localized_elegance/templates/article.html:267
+#: themes/localized_elegance/templates/article_with_ableplayer.html:83
+#: themes/localized_elegance/templates/article_with_videojs.html:75
+#: themes/localized_elegance/templates/includes/_defaults.html:239
+#: themes/localized_elegance/templates/page.html:35
+#: themes/localized_elegance/templates/recipe.html:60
+msgid "Contents"
+msgstr "Sadržaj"
+
+#: themes/localized_elegance/templates/article.html:300
+#: themes/localized_elegance/templates/article.html:319
+#: themes/localized_elegance/templates/article_with_ableplayer.html:120
+#: themes/localized_elegance/templates/article_with_videojs.html:112
+#: themes/localized_elegance/templates/includes/_defaults.html:246
+#: themes/localized_elegance/templates/recipe.html:106
+msgid "Previous article"
+msgstr "Prethodni članak"
+
+#: themes/localized_elegance/templates/article.html:309
+#: themes/localized_elegance/templates/article.html:328
+#: themes/localized_elegance/templates/article_with_ableplayer.html:129
+#: themes/localized_elegance/templates/article_with_videojs.html:121
+#: themes/localized_elegance/templates/includes/_defaults.html:253
+#: themes/localized_elegance/templates/recipe.html:115
+msgid "Next article"
+msgstr "Sledeći članak"
+
+#: themes/localized_elegance/templates/article.html:346
+#: themes/localized_elegance/templates/article_with_ableplayer.html:141
+#: themes/localized_elegance/templates/article_with_videojs.html:133
+#: themes/localized_elegance/templates/recipe.html:127
+msgid "Publication date"
+msgstr "Datum objavljivanja"
+
+#: themes/localized_elegance/templates/article.html:351
+#: themes/localized_elegance/templates/article_with_ableplayer.html:146
+#: themes/localized_elegance/templates/article_with_videojs.html:138
+#: themes/localized_elegance/templates/category.html:3
+#: themes/localized_elegance/templates/includes/_defaults.html:274
+#: themes/localized_elegance/templates/index.html:122
+#: themes/localized_elegance/templates/recipe.html:132
+msgid "Category"
+msgstr "Kategorija"
+
+#: themes/localized_elegance/templates/article.html:357
+#: themes/localized_elegance/templates/article_with_ableplayer.html:152
+#: themes/localized_elegance/templates/article_with_videojs.html:144
+#: themes/localized_elegance/templates/base_backup.html:82
+#: themes/localized_elegance/templates/includes/_defaults.html:281
+#: themes/localized_elegance/templates/recipe.html:138
+msgid "Tags"
+msgstr "Oznake"
+
+#: themes/localized_elegance/templates/article.html:386
+#: themes/localized_elegance/templates/article_with_ableplayer.html:251
+#: themes/localized_elegance/templates/article_with_videojs.html:243
+#: themes/localized_elegance/templates/base_backup.html:127
+#: themes/localized_elegance/templates/recipe.html:175
+msgid "Bravo!"
+msgstr "Svaka čast!"
+
+#: themes/localized_elegance/templates/article.html:389
+#: themes/localized_elegance/templates/article_with_ableplayer.html:254
+#: themes/localized_elegance/templates/article_with_videojs.html:246
+#: themes/localized_elegance/templates/base_backup.html:130
+#: themes/localized_elegance/templates/recipe.html:178
+msgid "Hmmm... no."
+msgstr "Hmmm... ne baš."
+
+#: themes/localized_elegance/templates/article_with_ableplayer.html:93
+#: themes/localized_elegance/templates/article_with_videojs.html:85
+msgid "Download"
+msgstr "Preuzimanja"
+
+#: themes/localized_elegance/templates/base.html:62
+msgid "Toggle navigation"
+msgstr "Prikaži/sakrij navigaciju"
+
+#: themes/localized_elegance/templates/base.html:77
+msgid "Radio"
+msgstr "Radio"
+
+#: themes/localized_elegance/templates/base.html:80
+#: themes/localized_elegance/templates/base_backup.html:81
+msgid "Categories"
+msgstr "Kategorije"
+
+#: themes/localized_elegance/templates/base.html:92
+msgid "Important links"
+msgstr "Korisni linkovi"
+
+#: themes/localized_elegance/templates/base.html:104
+#: themes/localized_elegance/templates/includes/_defaults.html:288
+msgid "Search"
+msgstr "Pretraži"
+
+#: themes/localized_elegance/templates/base.html:107
+msgid "Voice"
+msgstr "Glas"
+
+#: themes/localized_elegance/templates/base.html:118
+msgid "You are here"
+msgstr "Trenutno ste ovde"
+
+#: themes/localized_elegance/templates/base_backup.html:59
+msgid "Toggle menu visibility"
+msgstr "Prikaži/sakrij meni"
+
+#: themes/localized_elegance/templates/categories.html:3
+msgid "All categories"
+msgstr "Sve kategorije"
+
+#: themes/localized_elegance/templates/categories.html:8
+msgid "Hierarchy of the categories on the site"
+msgstr "Hijerarhija kategorija na sajtu"
+
+#: themes/localized_elegance/templates/categories.html:22
+msgid "No categories right now."
+msgstr "Trenutno nema kategorija."
+
+#: themes/localized_elegance/templates/index.html:3
+#, python-format
+msgid "Page %(current_page)d of %(total_pages)d"
+msgstr "Strana %(current_page)d od %(total_pages)d"
+
+#: themes/localized_elegance/templates/index.html:121
+msgid "By"
+msgstr "Autor"
+
+#: themes/localized_elegance/templates/index.html:128
+#, python-format
+msgid "%(num)s minute read"
+msgid_plural "%(num)s minutes read"
+msgstr[0] "%(num)s minut"
+msgstr[1] "%(num)s minuta"
+msgstr[2] "%(num)s minuta"
+
+#: themes/localized_elegance/templates/includes/post_stats.html:6
+#: themes/localized_elegance/templates/index.html:129
+#, python-format
+msgid "%(num)s word"
+msgid_plural "%(num)s words"
+msgstr[0] "%(num)s reč"
+msgstr[1] "%(num)s reči"
+msgstr[2] "%(num)s reči"
+
+#: themes/localized_elegance/templates/pagination.html:1
+#: themes/localized_elegance/templates/pagination.html:2
+msgid "Page navigation"
+msgstr "Navigacija po stranama"
+
+#: themes/localized_elegance/templates/pagination.html:5
+msgid "Previous page"
+msgstr "Prethodna strana"
+
+#: themes/localized_elegance/templates/pagination.html:19
+msgid "Next page"
+msgstr "Sledeća strana"
+
+#: themes/localized_elegance/templates/radio.html:37
+msgid "Now playing"
+msgstr "Trenutno slušaš"
+
+#: themes/localized_elegance/templates/radio.html:38
+msgid "Next song"
+msgstr "Sledeća pesma"
+
+#: themes/localized_elegance/templates/radio.html:41
+msgid "Play"
+msgstr "Pusti"
+
+#: themes/localized_elegance/templates/radio.html:42
+msgid "Pause"
+msgstr "Pauza"
+
+#: themes/localized_elegance/templates/radio.html:43
+msgid "Mute"
+msgstr "Mutiraj"
+
+#: themes/localized_elegance/templates/radio.html:44
+msgid "Unmute"
+msgstr "Odmutiraj"
+
+#: themes/localized_elegance/templates/radio.html:46
+msgid "Volume"
+msgstr "Glasnoća"
+
+#: themes/localized_elegance/templates/radio.html:51
+msgid "Time listening"
+msgstr "Trajanje slušanja"
+
+#: themes/localized_elegance/templates/radio.html:52
+msgid "Current listeners"
+msgstr "Broj slušalaca"
+
+#: themes/localized_elegance/templates/radio.html:55
+msgid "Recently played"
+msgstr "Nedavno puštano"
+
+#: themes/localized_elegance/templates/radio.html:56
+msgid "History loading"
+msgstr "Istorija se učitava"
+
+#: themes/localized_elegance/templates/recipe.html:3
+msgid "Recipe"
+msgstr "Recept"
+
+#: themes/localized_elegance/templates/recipe.html:45
+msgid "Preparation time"
+msgstr "Vreme potrebno za pripremu"
+
+#: themes/localized_elegance/templates/includes/post_stats.html:5
+#: themes/localized_elegance/templates/recipe.html:46
+#, python-format
+msgid "%(num)s minute"
+msgid_plural "%(num)s minutes"
+msgstr[0] "%(num)s minut"
+msgstr[1] "%(num)s minuta"
+msgstr[2] "%(num)s minuta"
+
+#: themes/localized_elegance/templates/recipe.html:49
+msgid "Difficulty"
+msgstr "Složenost"
+
+#: themes/localized_elegance/templates/search.html:69
+msgid "Search results"
+msgstr "Rezultati pretrage"
+
+#: themes/localized_elegance/templates/tag.html:3
+msgid "Tag"
+msgstr "Oznaka"
+
+#: themes/localized_elegance/templates/tags.html:3
+#: themes/localized_elegance/templates/tags.html:11
+#: themes/localized_elegance/templates/tags.html:12
+msgid "Tag cloud"
+msgstr "Oblak oznaka"
+
+#: themes/localized_elegance/templates/tags.html:6
+#: themes/localized_elegance/templates/tags.html:14
+#: themes/localized_elegance/templates/tags.html:15
+#, python-format
+msgid "%(sitename)s's tag cloud"
+msgstr "Oblak oznaka na sajtu %(sitename)s"
+
+#: themes/localized_elegance/templates/tags.html:32
+msgid "All tags"
+msgstr "Sve oznake"
+
+#: themes/localized_elegance/templates/tags.html:38
+msgid "Find a tag..."
+msgstr "Pronađi oznaku..."
+
+#: themes/localized_elegance/templates/includes/_defaults.html:3
+msgid "Related articles"
+msgstr "Povezani članci"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:10
+msgid "Stay in touch"
+msgstr "Budimo u kontaktu"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:17
+msgid "My projects"
+msgstr "Projekti"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:24
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:31
+msgid "Type your email address..."
+msgstr "Unesi svoju mejl adresu..."
+
+#: themes/localized_elegance/templates/includes/_defaults.html:38
+msgid "Subscribe"
+msgstr "Prijavi se"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:52
+#: themes/localized_elegance/templates/includes/share_links.html:5
+msgid "Share:"
+msgstr "Podeli:"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:59
+#: themes/localized_elegance/templates/includes/comments.html:20
+msgid "Comments"
+msgstr "Komentari"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:229
+msgid "Twitter"
+msgstr "Twitter"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:229
+msgid "Facebook"
+msgstr "Facebook"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:229
+msgid "Email"
+msgstr "Mejl"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:260
+msgid "Date of publication"
+msgstr "Datum objavljivanja"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:267
+#: themes/localized_elegance/templates/includes/last_updated.html:3
+msgid "Last modified"
+msgstr "Poslednja izmena"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:295
+msgid "Search results for"
+msgstr "Rezultati pretrage za"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:302
+msgid "Reading time"
+msgstr "Vreme potrebno za čitanje"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:309
+#: themes/localized_elegance/templates/includes/translations.html:3
+msgid "Also available in these languages"
+msgstr "Takođe dostupno na drugim jezicima"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:316
+msgid "Recent articles"
+msgstr "Nedavni članci"
+
+#: themes/localized_elegance/templates/includes/comments.html:26
+msgid "Toggle comments"
+msgstr "Prikaži/sakrij komentare"
+
+#: themes/localized_elegance/templates/includes/footer.html:2
+#, python-format
+msgid "Copyright © %(years)s %(sitename)s – by %(author)s. All rights reserved."
+msgstr "Copyright © %(years)s %(sitename)s – %(author)s. Sva prava zadržana."
+
+#: themes/localized_elegance/templates/includes/footer.html:12
+#, python-format
+msgid "Powered by %(pelican)s."
+msgstr "Pokreće: %(pelican)s."
+
+#: themes/localized_elegance/templates/includes/footer.html:13
+#, python-format
+msgid "Theme based on the fantastic %(theme)s theme."
+msgstr "Tema zasnovana na fantastičnoj %(theme)s temi."
+
+#: themes/localized_elegance/templates/includes/footer.html:15
+msgid "Hosted on"
+msgstr "Hostovano na"
+
+#: themes/localized_elegance/templates/includes/last_updated.html:6
+#, fuzzy, python-format
+msgid "%(num)s day ago"
+msgid_plural "%(num)s days ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: themes/localized_elegance/templates/includes/post_stats.html:3
+msgid "Estimated reading time"
+msgstr "Procenjeno vreme potrebno za čitanje"
+
+#: themes/localized_elegance/templates/includes/quotes.html:21
+msgid "Previous"
+msgstr "Prethodno"
+
+#: themes/localized_elegance/templates/includes/quotes.html:25
+msgid "Next"
+msgstr "Sledeće"
+
+#: themes/localized_elegance/templates/includes/similar_posts.html:3
+msgid "Similar posts"
+msgstr "Slični tekstovi"
+
+#~ msgid "Spanish"
+#~ msgstr "Španski"
+
+#~ msgid "Serbian"
+#~ msgstr "Srpski"
+
+#~ msgid "There's %(num)s translation."
+#~ msgid_plural "There are %(num)s translations."
+#~ msgstr[0] "Ovaj tekst je preveden na %(num)s jezik. Jedan, ali sigurno vredan!"
+#~ msgstr[1] "Postoje %(num)s prevoda ovog teksta."
+#~ msgstr[2] "Postoji %(num)s prevoda ovog teksta."
+
+#~ msgid "Català"
+#~ msgstr "Katalonski"
+
+#~ msgid "Español"
+#~ msgstr "Španski"
+
+#~ msgid "Srpski"
+#~ msgstr "Srpski"
+
+#~ msgid "English"
+#~ msgstr "Engleski"
+
+#~ msgid "List of categories"
+#~ msgstr "Lista kategorija"
+
+#~ msgid "%(blurb)s"
+#~ msgstr ""
+
+#~ msgid "I like languages, reading, writing, music, programming. Oh, and I'm the proudest aunt in the world! :pink_heart::light_blue_heart:"
+#~ msgstr "Volim strane jezike, čitam, pišem, volim muziku, programiranje. I da, ja sam najponosnija tetka na svetu! :pink_heart::light_blue_heart:"
+

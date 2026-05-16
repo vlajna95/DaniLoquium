@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Transkribovani plejer</title>
+<script src="videojs/video.min.js"></script>
+<script src="videojs/plugins/videojs-transcript/videojs-transcript.min.js"></script>
+</head>
+<body>
+<h1>TPlayer</h1>
+<audio src="http://fr.daniloquium.xyz/audio/Français pratique/Conversation__cuisine__recette_simple.mp3" title="Conversation – Recette simple" id="conversation">
+<track src="http://fr.daniloquium.xyz/docs/vtt/Conversation__cuisine__recette_simple.vtt" srclang="fr" kind="subtitles" label="Français" default />
+<track src="http://fr.daniloquium.xyz/docs/vtt/Conversation__cuisine__recette_simple__sr.vtt" srclang="sr" kind="subtitles" label="Srpski" />
+</audio>
+<hr />
+<div id="transcript"></div>
+
+<script>
+// set up player options
+var playerOptions = {
+audioOnlyMode: true,
+autoplay: false,
+controlBar.remainingTimeDisplay.displayNegative: false,
+controls: true,
+language: "fr",
+preload: auto,
+skipButtons.backward: 10,
+skipButtons.forward: 10,
+userActions.hotkeys: true,
+};
+var player = videojs("conversation", playerOptions);
+player.ready(function() {
+// set up transcript options
+var transcriptOptions = {
+autoscroll: true,
+scrollToCenter: true,
+clickArea: "line",
+showTitle: false,
+showTrackSelector: true,
+followPlayerTrack: true,
+stopScrollWhenInUse: true,
+};
+// initialize the plugin
+var transcript = this.transcript(transcriptOptions);
+// attach the widget to the page
+var transcriptContainer = document.getElementById("transcript");
+transcriptContainer.appendChild(transcript.el()); });
+</script>
+</body>
+</html>

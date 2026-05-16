@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% from 'includes/_defaults.html' import SEARCH_LABEL, SEARCH_DESCRIPTION with context %}
+
+{% block title %}{{ SEARCH_LABEL }} {{ super() }}{% endblock title %}
+
+{% block head_description %}
+{{ SEARCH_DESCRIPTION }} {{ SITENAME|striptags|e }}.
+{% endblock head_description %}
+
+{% block meta_tags_in_head %}
+{{ super() }}
+{% from 'includes/_defaults.html' import FEATURED_IMAGE, SEARCH_URL with context %}
+<meta property="og:title" content="{{ SEARCH_LABEL }} · {{ SITENAME|striptags|e }}" />
+<meta name="twitter:title" content="{{ SEARCH_LABEL }} · {{ SITENAME|striptags|e }}" />
+<meta property="og:url" content="{{ SITEURL }}/{{ SEARCH_URL }}" />
+<meta property="og:description" content="{{ SEARCH_DESCRIPTION }} {{ SITENAME|striptags|e }}" />
+<meta name="twitter:description" content="{{ SEARCH_DESCRIPTION }} {{ SITENAME|striptags|e }}" />
+<meta property="og:site_name" content="{{ SITENAME|striptags|e }}" />
+<meta property="og:article:author" content="{{ AUTHOR }}" />
+{% if FEATURED_IMAGE %}
+<meta property="og:image" content="{{ FEATURED_IMAGE }}" />
+<meta name="twitter:image" content="{{ FEATURED_IMAGE }}" />
+{% endif %}
+{% endblock meta_tags_in_head %}
+
+{% block head_extras %}
+<link rel="stylesheet" type="text/css" href="{{ main_siteurl }}/theme/tipuesearch/tipuesearch.css" />
+<script src="{{ SITEURL }}/tipuesearch_content.js"></script>
+<script src="{{ main_siteurl }}/theme/tipuesearch/tipuesearch.js"></script>
+<script src="{{ main_siteurl }}/theme/tipuesearch/tipuesearch_set-{{ DEFAULT_LANG }}.js"></script>
+<script>
+$(document).ready(function() {
+	$("#tipue_search_input").tipuesearch({
+		// "mode": "json",
+		// "contentLocation": "{{ SITEURL }}/tipuesearch_content.json",
+		"minimumLength": 3,
+		"show": 10,
+		"descriptiveWords": 50,
+		// "contextBuffer": 30,
+		// "contextLength": 60,
+		// "contextStart": 45,
+		"showContext": true,
+		"showRelated": true,
+		"showTime": true,
+		"showURL": false,
+		"showTitleCount": true,
+		"highlightTerms": true,
+		"highlightEveryTerm": true,
+		"wholeWords": false,
+		"newWindow": false,
+	});
+});
+</script>
+{% endblock head_extras %}
+
+{% block content %}
+{#
+<div class="row-fluid">
+<header id="lunr-search-result-heading" class="page-header span10 offset2"></header>
+</div>
+<div class="row-fluid">
+<div class="span8 offset2">
+<div id="lunr-search-result">
+</div>
+</div>
+</div>
+#}
+<h1>{% trans %}Search results{% endtrans %}</h1>
+<div id="tipue_search_content"></div>
+{% endblock content %}

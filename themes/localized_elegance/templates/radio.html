@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block title %}{{ RADIO_NAME }} {{ super() }}{% endblock title %}
+
+{% block head_description %}
+{{ RADIO_DESCRIPTION }} / {{ SITENAME|striptags|e }}.
+{% endblock head_description %}
+
+{% block meta_tags_in_head %}
+{{ super() }}
+{% from 'includes/_defaults.html' import FEATURED_IMAGE, SEARCH_URL with context %}
+<meta property="og:title" content="{{ RADIO_NAME }} {{ TITLE_SEPARATOR }} {{ SITENAME|striptags|e }}" />
+<meta name="twitter:title" content="{{ RADIO_NAME }} {{ TITLE_SEPARATOR }} {{ SITENAME|striptags|e }}" />
+<meta property="og:url" content="{{ SITEURL }}/radio" />
+<meta property="og:description" content="{{ RADIO_DESCRIPTION }} / {{ SITENAME|striptags|e }}" />
+<meta name="twitter:description" content="{{ RADIO_DESCRIPTION }} {{ SITENAME|striptags|e }}" />
+<meta property="og:site_name" content="{{ SITENAME|striptags|e }}" />
+<meta property="og:article:author" content="{{ AUTHOR }}" />
+{% if FEATURED_IMAGE %}
+<meta property="og:image" content="{{ FEATURED_IMAGE }}" />
+<meta name="twitter:image" content="{{ FEATURED_IMAGE }}" />
+{% endif %}
+{% endblock meta_tags_in_head %}
+
+{% block head_extras %}
+<link rel="stylesheet" type="text/css" href="{{ main_siteurl }}/theme/radio/radio_style.css" />
+<script src="{{ main_siteurl }}/theme/radio/radio_script.js"></script>
+{% endblock head_extras %}
+
+{% block content %}
+<h1 class="page-title">{{ RADIO_NAME }}</h1>
+<div class="page-description">
+{{ RADIO_PAGE_DESCRIPTION|get_md_content }}
+</div>
+<div class="player-container">
+<div id="songInfo">
+<p id="currentSongContainer">{% trans %}Now playing{% endtrans %}: <span id="currentSong"></span></p>
+<p id="nextSongContainer">{% trans %}Next song{% endtrans %}: <span id="nextSong"></span></p>
+</div>
+<div class="custom-player">
+<button id="playButton" class="player-control" accesskey="p">{% trans %}Play{% endtrans %}</button>
+<button id="pauseButton" class="player-control hidden" accesskey="s">{% trans %}Pause{% endtrans %}</button>
+<button id="muteButton" class="player-control" accesskey="m">{% trans %}Mute{% endtrans %}</button>
+<button id="unmuteButton" class="player-control hidden" accesskey="u">{% trans %}Unmute{% endtrans %}</button>
+<div id="volumeControlContainer" id="player-control">
+<label for="volumeControl">{% trans %}Volume{% endtrans %}: </label>
+<input type="range" id="volumeControl" min="0" max="100" step="1" value="50" accesskey="v" />
+</div>
+</div>
+<div id="otherStats">
+<p>{% trans %}Time listening{% endtrans %}: <span id="elapsedTime">0:00</span></p>
+<p class="hidden">{% trans %}Current listeners{% endtrans %}: <span id="listenersCount"></span></p>
+</div>
+<div id="songHistoryContainer">
+<h3>{% trans %}Recently played{% endtrans %}</h3>
+<ol id="songHistory">{% trans %}History loading{% endtrans %}...</ol>
+</div>
+</div>
+{% endblock content %}

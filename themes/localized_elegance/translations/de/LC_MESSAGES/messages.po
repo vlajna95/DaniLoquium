@@ -1,0 +1,767 @@
+# German translations for DaniLoquium.
+# Copyright (C) 2025 Danijela Popovic
+# This file is distributed under the same license as the DaniLoquium project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DaniLoquium 1.0\n"
+"Report-Msgid-Bugs-To: dani@danimundo.com\n"
+"POT-Creation-Date: 2025-03-16 14:58+0100\n"
+"PO-Revision-Date: 2025-03-03 06:20+0100\n"
+"Last-Translator: Danijela Popović <dani@danimundo.com>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: _conf_Deutsch__local.py:10
+msgid "Danijela Popović"
+msgstr "Danijela Popović"
+
+#: quotes/Deutsch.py:8
+msgid "The limits of my language mean the limits of my world."
+msgstr "Die Grenzen meiner Sprache bedeuten die Grenzen meiner Welt."
+
+#: quotes/Deutsch.py:9
+msgid "Ludwig Wittgenstein"
+msgstr "Ludwig Wittgenstein"
+
+#: quotes/Deutsch.py:12
+msgid "Language is the dress of thought."
+msgstr "Die Sprache ist das Kleid des Denkens."
+
+#: quotes/Deutsch.py:13
+msgid "Friedrich Schiller"
+msgstr "Friedrich Schiller"
+
+#: quotes/Deutsch.py:16
+msgid "Those who do not know foreign languages know nothing of their own."
+msgstr "Wer fremde Sprachen nicht kennt, weiß nichts von seiner eigenen."
+
+#: quotes/Deutsch.py:17 quotes/Deutsch.py:49 quotes/Deutsch.py:61
+#: quotes/Deutsch.py:65 quotes/Deutsch.py:69
+msgid "Johann Wolfgang von Goethe"
+msgstr "Johann Wolfgang von Goethe"
+
+#: quotes/Deutsch.py:20
+msgid "Language is the key to the world."
+msgstr "Sprache ist der Schlüssel zur Welt."
+
+#: quotes/Deutsch.py:21
+msgid "Heinrich Heine"
+msgstr "Heinrich Heine"
+
+#: quotes/Deutsch.py:24
+msgid "In the end, it is always the connections with people that give life its value."
+msgstr "Am Ende sind es immer die Verbindungen mit Menschen, die dem Leben seinen Wert geben."
+
+#: quotes/Deutsch.py:25
+msgid "Wilhelm von Humboldt"
+msgstr "Wilhelm von Humboldt"
+
+#: quotes/Deutsch.py:28
+msgid "Learning is experience. Everything else is just information."
+msgstr "Lernen ist Erfahrung. Alles andere ist nur Information."
+
+#: quotes/Deutsch.py:29 quotes/Deutsch.py:89
+msgid "Albert Einstein"
+msgstr "Albert Einstein"
+
+#: quotes/Deutsch.py:32
+msgid "Without music, life would be a mistake."
+msgstr "Ohne Musik wäre das Leben ein Irrtum."
+
+#: quotes/Deutsch.py:33
+msgid "Friedrich Nietzsche"
+msgstr "Friedrich Nietzsche"
+
+#: quotes/Deutsch.py:36
+msgid "Those who know nothing must believe everything."
+msgstr "Wer nichts weiß, muss alles glauben."
+
+#: quotes/Deutsch.py:37
+msgid "Georg Christoph Lichtenberg"
+msgstr "Georg Christoph Lichtenberg"
+
+#: quotes/Deutsch.py:40
+msgid "It is an immense happiness if one is capable of rejoicing."
+msgstr "Es ist ein großes Glück, wenn man fähig ist, sich zu freuen."
+
+#: quotes/Deutsch.py:41
+msgid "Theodor Fontane"
+msgstr "Theodor Fontane"
+
+#: quotes/Deutsch.py:44
+msgid "Language is the creator of thoughts."
+msgstr "Sprache ist der Schöpfer der Gedanken."
+
+#: quotes/Deutsch.py:45
+msgid "Berthold Auerbach"
+msgstr "Berthold Auerbach"
+
+#: quotes/Deutsch.py:48
+msgid "Knowledge is not enough; we must apply. Willing is not enough; we must do."
+msgstr "Wissen ist nicht genug; wir müssen es anwenden. Wollen ist nicht genug; wir müssen es tun."
+
+#: quotes/Deutsch.py:52
+msgid "Philosophy is the attempt to arrange all experiences into a system."
+msgstr "Philosophie ist der Versuch, alle Erfahrungen in ein System zu ordnen."
+
+#: quotes/Deutsch.py:53
+msgid "Friedrich Wilhelm Joseph Schelling"
+msgstr "Friedrich Wilhelm Joseph Schelling"
+
+#: quotes/Deutsch.py:56
+msgid "We must know. We will know."
+msgstr "Wir müssen wissen. Wir werden wissen."
+
+#: quotes/Deutsch.py:57
+msgid "David Hilbert"
+msgstr "David Hilbert"
+
+#: quotes/Deutsch.py:60
+msgid "The truth will set you free."
+msgstr "Die Wahrheit wird euch frei machen."
+
+#: quotes/Deutsch.py:64
+msgid "The best government is that which teaches us to govern ourselves."
+msgstr "Die beste Regierung ist die, die uns lehrt, uns selbst zu regieren."
+
+#: quotes/Deutsch.py:68
+msgid "The goal of life is life itself."
+msgstr "Das Ziel des Lebens ist das Leben selbst."
+
+#: quotes/Deutsch.py:72
+msgid "Nothing great in the world has been accomplished without passion."
+msgstr "Nichts Großes in der Welt wurde ohne Leidenschaft vollbracht."
+
+#: quotes/Deutsch.py:73
+msgid "Georg Wilhelm Friedrich Hegel"
+msgstr "Georg Wilhelm Friedrich Hegel"
+
+#: quotes/Deutsch.py:76
+msgid "Music is a higher revelation than all wisdom and philosophy."
+msgstr "Musik ist eine höhere Offenbarung als alle Weisheit und Philosophie."
+
+#: quotes/Deutsch.py:77
+msgid "Ludwig van Beethoven"
+msgstr "Ludwig van Beethoven"
+
+#: quotes/Deutsch.py:80
+msgid "Talent hits a target no one else can hit; genius hits a target no one else can see."
+msgstr "Talent trifft ein Ziel, das niemand sonst treffen kann; Genie trifft ein Ziel, das niemand sonst sehen kann."
+
+#: quotes/Deutsch.py:81
+msgid "Arthur Schopenhauer"
+msgstr "Arthur Schopenhauer"
+
+#: quotes/Deutsch.py:84
+msgid "Philosophers have only interpreted the world in various ways; the point, however, is to change it."
+msgstr "Die Philosophen haben die Welt nur verschieden interpretiert; es kommt aber darauf an, sie zu verändern."
+
+#: quotes/Deutsch.py:85
+msgid "Karl Marx"
+msgstr "Karl Marx"
+
+#: quotes/Deutsch.py:88
+msgid "The purest form of madness is to leave everything as it is and at the same time hope that something will change."
+msgstr "Die reinste Form des Wahnsinns ist es, alles beim Alten zu lassen und gleichzeitig zu hoffen, dass sich etwas ändert."
+
+#: quotes/Deutsch.py:92
+msgid "The worst path you can choose is not choosing one at all."
+msgstr "Der schlechteste Weg, den man wählen kann, ist, keinen zu wählen."
+
+#: quotes/Deutsch.py:93
+msgid "Friedrich Wilhelm Nietzsche"
+msgstr "Friedrich Wilhelm Nietzsche"
+
+#: quotes/Deutsch.py:96
+msgid "Every day is a new beginning."
+msgstr "Jeder Tag ist ein neuer Anfang."
+
+#: quotes/Deutsch.py:97
+msgid "Meister Eckhart"
+msgstr "Meister Eckhart"
+
+#: quotes/fr.py:8
+msgid "Man is nothing else but what he makes of himself."
+msgstr "Der Mensch ist nichts anderes als das, was er von sich selbst macht."
+
+#: quotes/fr.py:9
+msgid "Jean-Paul Sartre"
+msgstr "Jean-Paul Sartre"
+
+#: quotes/fr.py:12
+msgid "Judge a man by his questions rather than by his answers."
+msgstr "Beurteilen Sie einen Mann eher nach seinen Fragen als nach seinen Antworten."
+
+#: quotes/fr.py:13 quotes/fr.py:45
+msgid "Voltaire"
+msgstr "Voltaire"
+
+#: quotes/fr.py:16
+msgid "Imagination governs the world."
+msgstr "Vorstellungskraft regiert die Welt."
+
+#: quotes/fr.py:17
+msgid "Napoleon Bonaparte"
+msgstr "Napoleon Bonaparte"
+
+#: quotes/fr.py:20
+msgid "To be free is not merely to cast off one’s chains, but to live in a way that respects and enhances the freedom of others."
+msgstr "Frei sein wird nicht gemessen, um die eigenen Ketten abzuwehren, sondern auf eine Weise zu leben, die die Freiheit anderer respektiert und verbessert."
+
+#: quotes/fr.py:21
+msgid "Simone de Beauvoir"
+msgstr "Simone de Beauvoir"
+
+#: quotes/fr.py:24
+msgid "Art is the most beautiful of all lies."
+msgstr "Kunst ist die schönste aller Lügen."
+
+#: quotes/fr.py:25
+msgid "Claude Debussy"
+msgstr "Claude Debussy"
+
+#: quotes/fr.py:28
+msgid "Travel makes one modest. You see what a tiny place you occupy in the world."
+msgstr "Reisen macht einen bescheiden. Sie sehen, was für ein winziger Ort Sie in der Welt einnehmen."
+
+#: quotes/fr.py:29
+msgid "Gustave Flaubert"
+msgstr "Gustave Flaubert"
+
+#: quotes/fr.py:32
+msgid "The greatest wealth is to live content with little."
+msgstr "Der größte Reichtum ist es, zufrieden mit wenig zu leben."
+
+#: quotes/fr.py:33 quotes/fr.py:37
+msgid "Jean-Jacques Rousseau"
+msgstr "Jean-Jacques Rousseau"
+
+#: quotes/fr.py:36
+msgid "The more I see of men, the more I admire dogs."
+msgstr "Je mehr ich von Männern sehe, desto mehr bewundere ich Hunde."
+
+#: quotes/fr.py:40
+msgid "Liberty, equality, fraternity."
+msgstr "Freiheit, Gleichheit, Brüderlichkeit."
+
+#: quotes/fr.py:41
+msgid "French revolution motto"
+msgstr "Französische Revolution Motto"
+
+#: quotes/fr.py:44
+msgid "Men argue. Nature acts."
+msgstr "Männer argumentieren. Natur handelt."
+
+#: quotes/fr.py:48
+msgid "He who opens a school door, closes a prison."
+msgstr "Wer eine Schultür öffnet, schließt ein Gefängnis."
+
+#: quotes/fr.py:49 quotes/fr.py:53 quotes/fr.py:57 quotes/fr.py:77
+#: quotes/fr.py:97
+msgid "Victor Hugo"
+msgstr "Victor Hugo"
+
+#: quotes/fr.py:52
+msgid "To love or to have loved, that is enough. Ask nothing further."
+msgstr "Zu lieben oder geliebt worden zu sein, das ist genug. Fragen Sie nichts weiter."
+
+#: quotes/fr.py:56
+msgid "Music expresses that which cannot be put into words."
+msgstr "Musik drückt das aus, was nicht in Worte fassen kann."
+
+#: quotes/fr.py:60
+msgid "To love reading is to exchange hours of boredom for delightful hours."
+msgstr "Lesen bedeutet, Stunden der Langeweile für entzückende Stunden auszutauschen."
+
+#: quotes/fr.py:61
+msgid "Montesquieu"
+msgstr "Montesquieu"
+
+#: quotes/fr.py:64
+msgid "I think, therefore I am."
+msgstr "Ich denke, deshalb bin ich."
+
+#: quotes/fr.py:65
+msgid "René Descartes"
+msgstr "René Descartes"
+
+#: quotes/fr.py:68
+msgid "The heart has its reasons, which reason does not know."
+msgstr "Das Herz hat seine Gründe, welchen Grund nicht weiß."
+
+#: quotes/fr.py:69 quotes/fr.py:73
+msgid "Blaise Pascal"
+msgstr "Blaise Pascal"
+
+#: quotes/fr.py:72
+msgid "The only thing that consoles us for our miseries is diversion."
+msgstr "Das einzige, was uns für unser Elenden konsolen ist, ist Ablenkung."
+
+#: quotes/fr.py:76
+msgid "History is an echo of the past in the future; a reflex from the future on the past."
+msgstr "Die Geschichte ist in Zukunft ein Echo der Vergangenheit; ein Reflex aus der Zukunft in der Vergangenheit."
+
+#: quotes/fr.py:80
+msgid "What makes the desert beautiful is that somewhere it hides a well."
+msgstr "Was die Wüste schön macht, ist, dass es irgendwo einen Brunnen verbirgt."
+
+#: quotes/fr.py:81 quotes/fr.py:85
+msgid "Antoine de Saint-Exupéry"
+msgstr "Antoine de Saint-Exupéry"
+
+#: quotes/fr.py:84
+msgid "Love does not consist in gazing at each other, but in looking outward together in the same direction."
+msgstr "Liebe besteht nicht darin, sich gegenseitig anzusehen, sondern in die gleiche Richtung nach außen zu schauen."
+
+#: quotes/fr.py:88
+msgid "Genius is nothing but a greater aptitude for patience."
+msgstr "Genie ist nichts anderes als eine größere Fähigkeit für Geduld."
+
+#: quotes/fr.py:89
+msgid "Georges-Louis Leclerc, Comte de Buffon"
+msgstr "Georges-Louis Leclerc, Comte de Buffon"
+
+#: quotes/fr.py:92
+msgid "The real voyage of discovery consists not in seeking new landscapes, but in having new eyes."
+msgstr "Die wahre Entdeckungsreise besteht nicht darin, neue Landschaften zu suchen, sondern neue Augen zu haben."
+
+#: quotes/fr.py:93
+msgid "Marcel Proust"
+msgstr "Marcel Proust"
+
+#: quotes/fr.py:96
+msgid "A man is not idle because he is absorbed in thought. There is visible labor and there is invisible labor."
+msgstr "Ein Mann ist nicht untätig, weil er in Gedanken aufgenommen wird. Es gibt sichtbare Arbeitskräfte und unsichtbare Arbeitskräfte."
+
+#: quotes/fr.py:100
+msgid "It is better to be hated for what you are than to be loved for what you are not."
+msgstr "Es ist besser, für das zu hassen, was Sie sind, als für das geliebt zu werden, was Sie nicht sind."
+
+#: quotes/fr.py:101
+msgid "André Gide"
+msgstr "André Gide"
+
+#: themes/localized_elegance/templates/404.html:3
+msgid "Page not found"
+msgstr "Seite nicht gefunden"
+
+#: themes/localized_elegance/templates/404.html:6
+#, python-format
+msgid "This page was not found on %(sitename)s."
+msgstr "Diese Seite wurde auf %(sitename)s nicht gefunden."
+
+#: themes/localized_elegance/templates/404.html:12
+msgid "This page does not exist"
+msgstr "Diese Seite existiert nicht"
+
+#: themes/localized_elegance/templates/404.html:17
+msgid "Unfortunately, the requested page was not found. It seems that the page you are looking for does not exist, it may have been moved or removed."
+msgstr "Leider wurde die angeforderte Seite nicht gefunden. Es scheint, dass die von Ihnen gesuchte Seite nicht existiert. Möglicherweise wurde sie verschoben oder entfernt."
+
+#: themes/localized_elegance/templates/404.html:18
+msgid "Back to the homepage"
+msgstr "Zurück zur Startseite"
+
+#: themes/localized_elegance/templates/archives.html:3
+#: themes/localized_elegance/templates/archives.html:12
+#: themes/localized_elegance/templates/archives.html:13
+#: themes/localized_elegance/templates/archives.html:29
+#: themes/localized_elegance/templates/base_backup.html:83
+msgid "Archives"
+msgstr "Archiv"
+
+#: themes/localized_elegance/templates/archives.html:6
+#: themes/localized_elegance/templates/archives.html:15
+#: themes/localized_elegance/templates/archives.html:16
+#, python-format
+msgid "The full %(sitename)s archives"
+msgstr "Die vollständigen %(sitename)s-Archive"
+
+#: themes/localized_elegance/templates/article.html:240
+#: themes/localized_elegance/templates/article.html:248
+#: themes/localized_elegance/templates/article_with_ableplayer.html:56
+#: themes/localized_elegance/templates/article_with_ableplayer.html:64
+#: themes/localized_elegance/templates/article_with_videojs.html:48
+#: themes/localized_elegance/templates/article_with_videojs.html:56
+msgid "Article parts"
+msgstr "Artikelteile"
+
+#: themes/localized_elegance/templates/article.html:267
+#: themes/localized_elegance/templates/article_with_ableplayer.html:83
+#: themes/localized_elegance/templates/article_with_videojs.html:75
+#: themes/localized_elegance/templates/includes/_defaults.html:239
+#: themes/localized_elegance/templates/page.html:35
+#: themes/localized_elegance/templates/recipe.html:60
+msgid "Contents"
+msgstr "Inhalt"
+
+#: themes/localized_elegance/templates/article.html:300
+#: themes/localized_elegance/templates/article.html:319
+#: themes/localized_elegance/templates/article_with_ableplayer.html:120
+#: themes/localized_elegance/templates/article_with_videojs.html:112
+#: themes/localized_elegance/templates/includes/_defaults.html:246
+#: themes/localized_elegance/templates/recipe.html:106
+msgid "Previous article"
+msgstr "Vorheriger Artikel"
+
+#: themes/localized_elegance/templates/article.html:309
+#: themes/localized_elegance/templates/article.html:328
+#: themes/localized_elegance/templates/article_with_ableplayer.html:129
+#: themes/localized_elegance/templates/article_with_videojs.html:121
+#: themes/localized_elegance/templates/includes/_defaults.html:253
+#: themes/localized_elegance/templates/recipe.html:115
+msgid "Next article"
+msgstr "Nächster Artikel"
+
+#: themes/localized_elegance/templates/article.html:346
+#: themes/localized_elegance/templates/article_with_ableplayer.html:141
+#: themes/localized_elegance/templates/article_with_videojs.html:133
+#: themes/localized_elegance/templates/recipe.html:127
+msgid "Publication date"
+msgstr "Veröffentlichungsdatum"
+
+#: themes/localized_elegance/templates/article.html:351
+#: themes/localized_elegance/templates/article_with_ableplayer.html:146
+#: themes/localized_elegance/templates/article_with_videojs.html:138
+#: themes/localized_elegance/templates/category.html:3
+#: themes/localized_elegance/templates/includes/_defaults.html:274
+#: themes/localized_elegance/templates/index.html:122
+#: themes/localized_elegance/templates/recipe.html:132
+msgid "Category"
+msgstr "Kategorie"
+
+#: themes/localized_elegance/templates/article.html:357
+#: themes/localized_elegance/templates/article_with_ableplayer.html:152
+#: themes/localized_elegance/templates/article_with_videojs.html:144
+#: themes/localized_elegance/templates/base_backup.html:82
+#: themes/localized_elegance/templates/includes/_defaults.html:281
+#: themes/localized_elegance/templates/recipe.html:138
+msgid "Tags"
+msgstr "Schlagworte"
+
+#: themes/localized_elegance/templates/article.html:386
+#: themes/localized_elegance/templates/article_with_ableplayer.html:251
+#: themes/localized_elegance/templates/article_with_videojs.html:243
+#: themes/localized_elegance/templates/base_backup.html:127
+#: themes/localized_elegance/templates/recipe.html:175
+msgid "Bravo!"
+msgstr "Gut gemacht!"
+
+#: themes/localized_elegance/templates/article.html:389
+#: themes/localized_elegance/templates/article_with_ableplayer.html:254
+#: themes/localized_elegance/templates/article_with_videojs.html:246
+#: themes/localized_elegance/templates/base_backup.html:130
+#: themes/localized_elegance/templates/recipe.html:178
+msgid "Hmmm... no."
+msgstr "Hmmm... nein."
+
+#: themes/localized_elegance/templates/article_with_ableplayer.html:93
+#: themes/localized_elegance/templates/article_with_videojs.html:85
+msgid "Download"
+msgstr "Herunterladen"
+
+#: themes/localized_elegance/templates/base.html:62
+msgid "Toggle navigation"
+msgstr "Navigation umschalten"
+
+#: themes/localized_elegance/templates/base.html:77
+msgid "Radio"
+msgstr "Radio"
+
+#: themes/localized_elegance/templates/base.html:80
+#: themes/localized_elegance/templates/base_backup.html:81
+msgid "Categories"
+msgstr "Kategorien"
+
+#: themes/localized_elegance/templates/base.html:92
+msgid "Important links"
+msgstr "Wichtige Links"
+
+#: themes/localized_elegance/templates/base.html:104
+#: themes/localized_elegance/templates/includes/_defaults.html:288
+msgid "Search"
+msgstr "Suchen"
+
+#: themes/localized_elegance/templates/base.html:107
+msgid "Voice"
+msgstr "Stimme"
+
+#: themes/localized_elegance/templates/base.html:118
+msgid "You are here"
+msgstr "Sie sind hier"
+
+#: themes/localized_elegance/templates/base_backup.html:59
+msgid "Toggle menu visibility"
+msgstr "Schalten Sie die Sichtbarkeit des Menüs um"
+
+#: themes/localized_elegance/templates/categories.html:3
+msgid "All categories"
+msgstr "Alle Kategorien"
+
+#: themes/localized_elegance/templates/categories.html:8
+msgid "Hierarchy of the categories on the site"
+msgstr "Hierarchie der Kategorien auf der Website"
+
+#: themes/localized_elegance/templates/categories.html:22
+msgid "No categories right now."
+msgstr "Zur Zeit keine Kategorien."
+
+#: themes/localized_elegance/templates/index.html:3
+#, python-format
+msgid "Page %(current_page)d of %(total_pages)d"
+msgstr "Seite %(current_page)d von %(total_pages)d"
+
+#: themes/localized_elegance/templates/index.html:121
+msgid "By"
+msgstr "Von"
+
+#: themes/localized_elegance/templates/index.html:128
+#, python-format
+msgid "%(num)s minute read"
+msgid_plural "%(num)s minutes read"
+msgstr[0] "%(num)s-minütige Lektüre"
+msgstr[1] "%(num)s-minütige Lektüre"
+
+#: themes/localized_elegance/templates/includes/post_stats.html:6
+#: themes/localized_elegance/templates/index.html:129
+#, python-format
+msgid "%(num)s word"
+msgid_plural "%(num)s words"
+msgstr[0] "%(num)s Wort"
+msgstr[1] "%(num)s Wörter"
+
+#: themes/localized_elegance/templates/pagination.html:1
+#: themes/localized_elegance/templates/pagination.html:2
+msgid "Page navigation"
+msgstr "Seitennavigation"
+
+#: themes/localized_elegance/templates/pagination.html:5
+msgid "Previous page"
+msgstr "Vorherige Seite"
+
+#: themes/localized_elegance/templates/pagination.html:19
+msgid "Next page"
+msgstr "Nächste Seite"
+
+#: themes/localized_elegance/templates/radio.html:37
+msgid "Now playing"
+msgstr "Jetzt spielen"
+
+#: themes/localized_elegance/templates/radio.html:38
+msgid "Next song"
+msgstr "Nächstes Lied"
+
+#: themes/localized_elegance/templates/radio.html:41
+msgid "Play"
+msgstr "Spielen"
+
+#: themes/localized_elegance/templates/radio.html:42
+msgid "Pause"
+msgstr "Pausieren"
+
+#: themes/localized_elegance/templates/radio.html:43
+msgid "Mute"
+msgstr "Stumm"
+
+#: themes/localized_elegance/templates/radio.html:44
+msgid "Unmute"
+msgstr "Stumm aufheben"
+
+#: themes/localized_elegance/templates/radio.html:46
+msgid "Volume"
+msgstr "Lautstärke"
+
+#: themes/localized_elegance/templates/radio.html:51
+msgid "Time listening"
+msgstr "Hördauer"
+
+#: themes/localized_elegance/templates/radio.html:52
+msgid "Current listeners"
+msgstr "Aktuelle Zuhörer"
+
+#: themes/localized_elegance/templates/radio.html:55
+msgid "Recently played"
+msgstr "Kürzlich gespielt"
+
+#: themes/localized_elegance/templates/radio.html:56
+msgid "History loading"
+msgstr "Verlauf wird geladen"
+
+#: themes/localized_elegance/templates/recipe.html:3
+msgid "Recipe"
+msgstr "Rezept"
+
+#: themes/localized_elegance/templates/recipe.html:45
+msgid "Preparation time"
+msgstr "Vorbereitungszeit"
+
+#: themes/localized_elegance/templates/includes/post_stats.html:5
+#: themes/localized_elegance/templates/recipe.html:46
+#, python-format
+msgid "%(num)s minute"
+msgid_plural "%(num)s minutes"
+msgstr[0] "%(num)s Minute"
+msgstr[1] "%(num)s Minuten"
+
+#: themes/localized_elegance/templates/recipe.html:49
+msgid "Difficulty"
+msgstr "Schwierigkeit"
+
+#: themes/localized_elegance/templates/search.html:69
+msgid "Search results"
+msgstr "Suchergebnisse"
+
+#: themes/localized_elegance/templates/tag.html:3
+msgid "Tag"
+msgstr "Schlagwort"
+
+#: themes/localized_elegance/templates/tags.html:3
+#: themes/localized_elegance/templates/tags.html:11
+#: themes/localized_elegance/templates/tags.html:12
+msgid "Tag cloud"
+msgstr "Schlagwortwolke"
+
+#: themes/localized_elegance/templates/tags.html:6
+#: themes/localized_elegance/templates/tags.html:14
+#: themes/localized_elegance/templates/tags.html:15
+#, python-format
+msgid "%(sitename)s's tag cloud"
+msgstr "Die Schlagwortewolke von %(sitename)s"
+
+#: themes/localized_elegance/templates/tags.html:32
+msgid "All tags"
+msgstr "Alle Schlagworte"
+
+#: themes/localized_elegance/templates/tags.html:38
+msgid "Find a tag..."
+msgstr "Ein Schlagwort finden..."
+
+#: themes/localized_elegance/templates/includes/_defaults.html:3
+msgid "Related articles"
+msgstr "Verwandte Artikel"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:10
+msgid "Stay in touch"
+msgstr "In Kontakt bleiben"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:17
+msgid "My projects"
+msgstr "Meine Projekte"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:24
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:31
+msgid "Type your email address..."
+msgstr "Geben Sie Ihre E-Mail-Adresse ein..."
+
+#: themes/localized_elegance/templates/includes/_defaults.html:38
+msgid "Subscribe"
+msgstr "Abonnieren"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:52
+#: themes/localized_elegance/templates/includes/share_links.html:5
+msgid "Share:"
+msgstr "Teilen:"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:59
+#: themes/localized_elegance/templates/includes/comments.html:20
+msgid "Comments"
+msgstr "Kommentare"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:229
+msgid "Twitter"
+msgstr "Twitter"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:229
+msgid "Facebook"
+msgstr "Facebook"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:229
+msgid "Email"
+msgstr "E-Mail"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:260
+msgid "Date of publication"
+msgstr "Veröffentlichungsdatum"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:267
+#: themes/localized_elegance/templates/includes/last_updated.html:4
+msgid "Last modified"
+msgstr "Zuletzt geändert"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:295
+msgid "Search results for"
+msgstr "Suchergebnisse für"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:302
+msgid "Reading time"
+msgstr "Lesezeit"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:309
+#: themes/localized_elegance/templates/includes/translations.html:3
+msgid "Also available in these languages"
+msgstr "Auch in diesen Sprachen verfügbar"
+
+#: themes/localized_elegance/templates/includes/_defaults.html:316
+msgid "Recent articles"
+msgstr "Neueste Artikel"
+
+#: themes/localized_elegance/templates/includes/comments.html:26
+msgid "Toggle comments"
+msgstr "Kommentare umschalten"
+
+#: themes/localized_elegance/templates/includes/footer.html:2
+#, python-format
+msgid "Copyright © %(years)s %(sitename)s – by %(author)s. All rights reserved."
+msgstr "Copyright © %(years)s %(sitename)s – von %(author)s. Alle Rechte vorbehalten."
+
+#: themes/localized_elegance/templates/includes/footer.html:12
+#, python-format
+msgid "Powered by %(pelican)s."
+msgstr "Unterstützt von %(pelican)s."
+
+#: themes/localized_elegance/templates/includes/footer.html:13
+#, python-format
+msgid "Theme based on the fantastic %(theme)s theme."
+msgstr "Thema basierend auf dem fantastischen %(theme)s Thema."
+
+#: themes/localized_elegance/templates/includes/footer.html:15
+msgid "Hosted on"
+msgstr "Gehostet auf"
+
+#: themes/localized_elegance/templates/includes/post_stats.html:3
+msgid "Estimated reading time"
+msgstr "Geschätzte Lesezeit"
+
+#: themes/localized_elegance/templates/includes/quotes.html:21
+msgid "Previous"
+msgstr "Vorherige"
+
+#: themes/localized_elegance/templates/includes/quotes.html:25
+msgid "Next"
+msgstr "Nächste"
+
+#: themes/localized_elegance/templates/includes/similar_posts.html:3
+msgid "Similar posts"
+msgstr "Ähnliche Beiträge"
+
+#~ msgid "words"
+#~ msgstr "Wörter"
+
+#~ msgid "I like languages, reading, writing, music, programming. Oh, and I'm the proudest aunt in the world! :pink_heart::light_blue_heart:"
+#~ msgstr "Ich mag Sprachen, lesen, schreiben, Musik, Programmierung. Oh, und ich bin die stolzeste Tante der Welt! :pink_heart::light_blue_heart:"
+
+#~ msgid "%(num)s day ago"
+#~ msgid_plural "%(num)s days ago"
+#~ msgstr[0] "vor %(num_of_days)s Tag"
+#~ msgstr[1] "vor %(num_of_days)s Tagen"
+

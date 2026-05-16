@@ -1,0 +1,8 @@
+{% if article.locale_modified and article.modified %}
+{{ DEFAULT_LANG|humanize_activate() }}
+{% set delta = article.modified.replace(tzinfo=None)|humanize_precisetime(minimum_unit="minutes") %}
+<h4>{{ gettext("Last modified") }}</h4>
+<time datetime="{{ article.modified.isoformat() }}">
+<span title="{{ article.locale_modified|upper }}">{{ delta }}</span>
+</time>
+{% endif %}

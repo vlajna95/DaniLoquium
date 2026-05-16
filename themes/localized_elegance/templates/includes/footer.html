@@ -1,0 +1,23 @@
+<footer>
+<div>{{ gettext("Copyright © %(years)s %(sitename)s – by %(author)s. All rights reserved.", years=THE_YEARS[2], sitename=SITENAME, author=AUTHOR) }}</div>
+{% if AMAZON_ONELINK or AMAZON_BESTAZON %}
+<span class="site-name">{{ SITENAME }}</span> is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.
+{% endif %}
+{% if AMAZON_ONELINK %}
+<div id="amzn-assoc-ad-{{ AMAZON_ONELINK }}"></div>
+<script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId={{ AMAZON_ONELINK }}">
+</script>
+{% endif %}
+<div id="fpowered">
+{{ gettext("Powered by %(pelican)s.", pelican='<a href="http://getpelican.com/" title="Pelican - static site generator" target="_blank" rel="nofollow noopener noreferrer">Pelican</a>') }} 
+{{ gettext("Theme based on the fantastic %(theme)s theme.", theme='<a href="https://elegant.oncrashreboot.com/" title="Elegant" target="_blank" rel="nofollow noopener noreferrer">Elegant</a>') }} 
+{% if HOSTED_ON and HOSTED_ON.name %}
+{{ gettext("Hosted on") }} 
+{% if HOSTED_ON.url %}
+<a href={{ HOSTED_ON.url }} target="_blank" rel="nofollow noopener noreferrer">{{ HOSTED_ON.name }}</a>
+{% else %}
+{{ HOSTED_ON.name }}
+{% endif %}
+{% endif %}
+</div>
+</footer>

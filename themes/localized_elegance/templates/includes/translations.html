@@ -1,0 +1,11 @@
+{% macro translations_for(article_or_page) %}
+{% if article_or_page.translations %}
+<h4>{{ gettext("Also available in these languages") }}</h4>
+<div id="list-of-translations">
+{# <p>{{ ngettext("There's %(num)s translation.", "There are %(num)s translations.", article_or_page.translations|length) }}</p> #}
+{% for translation in article_or_page.translations|sort(attribute = 'lang') %}
+<a href="{{ SITEURL }}/{{ translation.url }}" title="{{ translation.title }}">[{{ translation.lang|lookup_lang_name }}] {{ translation.title }}</a>{% if not loop.last %} <br />{% endif %}
+{% endfor %}
+</div>
+{% endif %}
+{% endmacro %}
