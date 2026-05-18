@@ -15,7 +15,5 @@ pygments
 git+https://github.com/vlajna95/pelican-tipue-search
 git+https://github.com/vlajna95/markdown-customblocks
 git+https://github.com/vlajna95/mdx-tablespan
-git+https://github.com/vlajna95/humanize
-git+https://github.com/vlajna95/jinja2_humanize_extension
 # git+https://github.com/vlajna95/mdx-include-lines
 markdown-captions
