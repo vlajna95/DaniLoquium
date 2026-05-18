@@ -1,4 +1,17 @@
-# Govoriti jezik i živeti ga: zašto tečnost nije isto što i pripadanje 
+title: Govoriti jezik i živeti ga: zašto tečnost nije isto što i pripadanje
+date: 2026-05-17 19:18
+keywords: jezici, učenje, cilj, život, identitet
+summary: Zašto (na)učiti neki jezik nije isto što i živeti taj jezik – i šta bi to uopšte trebalo da znači?
+description: Zašto (na)učiti neki jezik nije isto što i živeti taj jezik – i šta bi to uopšte trebalo da znači?
+modified: 2026-05-17 19:18
+trans_id: jezici__govoriti_i_ziveti_jezik_nije_isto
+lang: sr
+
+
+[TOC]
+
+-----
+
 
 Postoji trenutak koji skoro svaki učenik stranog jezika doživi pre ili kasnije. Možda sedi u vozu u nekoj drugoj zemlji, sluša razgovor ljudi oko sebe i odjednom shvati da razume skoro sve. Ne prevodi više u glavi. Rečenice dolaze prirodno. Filmovi više ne zahtevaju titlove. Knjige više nisu napor. Čak i humor počinje da funkcioniše.  
 A ipak, nešto nedostaje. 
@@ -155,6 +168,3 @@ Na kraju, pravi cilj učenja jezika možda uopšte nije savršena fluentnost.
 Možda je cilj nešto mnogo tiše i mnogo ljudskije: sposobnost da se u nekom jeziku smeješ prirodno, ćutiš bez nelagode i osećaš se dovoljno sigurno da budeš potpuno svoj. 
 
 Tek tada jezik prestaje da bude strani. 
-
-
-30
